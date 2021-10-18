@@ -1,0 +1,107 @@
+@media (max-width:1024px){
+    /**/
+    body{
+        overflow: hidden;
+    }
+    
+    /*BARRA DE NAVEGACION - INICIO*/
+    .logo{
+        padding-left: 25px;
+        width: 190px;
+        height: 60px;
+    }
+
+    .botonresponsive{
+        margin-top: 31px;
+        display: block;
+        position: absolute;
+        top: 15px;
+        right: 25px;
+        transition: 0.2s 0.1s;
+    }
+
+    .botonresponsive:hover{
+        transform: rotate(360deg);
+    }
+
+    nav{
+        flex-direction: column;
+        align-items: flex-start;
+        padding: 25px 0;
+    }
+
+    .enlace-menu{
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+        height: 40vh;
+        margin: 0;
+        padding: 0;
+        width: 100%;
+        display: none;
+        opacity: 0;
+    }
+
+    .enlace-menu li{
+        width: 100%;
+        text-align: center;
+        padding: 5px;
+    }
+
+    /*BARRA DE NAVEGACION - FINAL*/
+
+    /*TITULO HOLA SOY*/
+
+    .grid {
+        display: grid;
+        grid-template-columns: 40% 60%;
+    }
+
+    .presentacion {
+        color: #f3f3f3;
+        margin-top: 150px;
+        margin-left: 50px;
+        font-size: 30px;
+    }
+
+    .presentacion-1{
+        height: 1px;
+    }
+
+    .presentacion-2{
+        height: 50px;
+    }
+
+    .subtitulo {
+        font-size: 30px;
+        color: #bbbbbb;
+    }
+
+    .img-portada {
+        padding-top: 50px;
+    }
+
+    /*FIN TITULO HOLA SOY*/
+}
+
+@keyframes muestraMenu{
+    from{opacity: 0;}
+    to{opacity: 1;}
+}
+
+.enlace-menu.activado{
+    display: flex;
+    animation: muestraMenu 350ms ease-in-out both;
+}
+
+.br-1.animado{
+    transform: rotate(-45deg) translate(-10px, 8px);
+}
+
+.br-2.animado{
+    opacity: 0;
+}
+
+.br-3.animado{
+    transform: rotate(45deg) translate(-10px, -8px);
+}
