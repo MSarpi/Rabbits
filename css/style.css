@@ -91,6 +91,7 @@ body{
 /* FIN BARRA DE NAVEGACION LATERAL*/
 
 
+
 /*TITULO HOLA SOY*/
 
 .grid {
@@ -117,7 +118,9 @@ body{
 .subtitulo {
     font-size: 30px;
     color: #bbbbbb;
+    padding-bottom: 50px;
 }
+
 
 .img-portada {
     padding-left: 100px ;
@@ -135,6 +138,7 @@ body{
     -webkit-text-fill-color: transparent;
     -webkit-background-clip: text;
     text-shadow: 0 0 10px rgba(68, 37, 37, 0.288);
+    
 }
 
 /*TEXTO-MAQUINA DE ESCRIBIR FIN*/

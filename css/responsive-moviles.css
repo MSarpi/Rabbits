@@ -59,21 +59,21 @@
         background: var(--barra)
     }
     .bxs-home:hover{
-        padding-right: 14rem;
+        padding-right: 1rem;
     }
     
     .bxs-user{
         background: var(--barra);
     }
     .bxs-user:hover{
-        padding-right: 21rem;
+        padding-right: 1rem;
     }
     
     .bx-library{
         background: var(--barra);
     }
     .bx-library:hover{
-        padding-right: 14rem;
+        padding-right: 1rem;
     }
     
     .bx:first-child {
@@ -95,21 +95,16 @@
     /*TITULO HOLA SOY*/
     
     
-.grid {
-    display: grid;
-    grid-template-columns: 100%;
-}
+    .grid {
+        display: grid;
+        grid-template-columns: 100%;
+    }
 
     .presentacion {
         color: #f3f3f3;
-        margin-top: 30px;
-        margin-left: 50px;
         font-size: 20px;
     }
-    
-    .presentacion-1{
-        height: 50px;
-    }
+
     
     .presentacion-2 {
         height: 50px;
@@ -120,7 +115,7 @@
     .subtitulo {
         font-size: 35px;
         color: #bbbbbb;
-        margin-top: 100px;
+        margin-top: 70px;
     }
     
     .img-portada {
@@ -134,11 +129,13 @@
     /*TEXTO-MAQUINA DE ESCRIBIR*/
     
     .grid-maquina .habilidades {
+        
         background: linear-gradient(to right, #f8875a, #c53838);
         -webkit-text-fill-color: transparent;
         -webkit-background-clip: text;
         text-shadow: 0 0 10px rgba(68, 37, 37, 0.288);
-        font-size: 40px;
+        font-size: 30px;
+        
     }
     
     /*TEXTO-MAQUINA DE ESCRIBIR FIN*/
@@ -156,7 +153,6 @@
         cursor: pointer;
         box-shadow: none;
         transition: 0.8s;
-       
     }
     
     .descargar-cv:hover{
@@ -173,7 +169,7 @@
         background: rgb(0,0,0);
         background: linear-gradient(90deg, rgba(0,0,0,0.4822303921568627) 0%, rgba(0,0,0,0.3617822128851541) 0%);
         border-radius: 10px;
-        margin-top: 290px;
+        margin-top: 150px;
         width: 396px;
         left: 9px;
     }
@@ -183,7 +179,6 @@
         grid-template-columns: 100%;
         
     }
-    
     
 
     .titulo-presentacion{
