@@ -102,6 +102,7 @@
 
     .presentacion {
         color: #f3f3f3;
+        margin-top: 150px;
         font-size: 20px;
     }
 
@@ -115,7 +116,7 @@
     .subtitulo {
         font-size: 35px;
         color: #bbbbbb;
-        margin-top: 70px;
+        margin-top: 50px;
     }
     
     .img-portada {
@@ -234,3 +235,5 @@
         padding: 30px;
         color: white;
     }
+}
+

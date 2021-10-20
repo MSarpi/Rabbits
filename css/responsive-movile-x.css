@@ -1,0 +1,11 @@
+@media (max-width:375px){
+    .quien-soy{
+        background: rgb(0,0,0);
+        background: linear-gradient(90deg, rgba(0,0,0,0.4822303921568627) 0%, rgba(0,0,0,0.3617822128851541) 0%);
+        border-radius: 10px;
+        margin-top: 150px;
+        width: 396px;
+        left: 0.1px;
+    }
+
+}

@@ -95,6 +95,7 @@ body{
 /*TITULO HOLA SOY*/
 
 .grid {
+    
     display: grid;
     grid-template-columns: 50% 50%;
 }
@@ -174,7 +175,7 @@ body{
 .quien-soy{
     background: rgb(0,0,0);
     background: linear-gradient(90deg, rgba(0,0,0,0.4822303921568627) 0%, rgba(0,0,0,0.3617822128851541) 0%);
-    border-radius: 10px;
+    border-radius: px;
     align-items: center;
     margin-top: 50px;
     padding: 5rem;
