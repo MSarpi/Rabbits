@@ -1,0 +1,443 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed&family=Zen+Antique+Soft&display=swap');
+
+html{
+    font-size: 62.5%;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    overflow: scroll;
+}
+
+*, *::before, *::after{
+    box-sizing: inherit;
+}
+
+:root {
+    --facebook: #3b5999;
+    --instagram: #e4405f;
+    --whatsapp: green;
+    --linkedin: #0077b5;
+    --gmail: #912200;
+    --barra: linear-gradient(to right, #885b49, #c53838);
+}
+
+body{
+    padding: 0;
+    margin: 0;
+    line-height: 1.6;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+
+/*BARRA DE NAVEGACION LATERAL*/
+
+.barra-navegacion {
+	position: fixed;
+	right: 0;
+	top: 30%;
+	font-size: 4rem;
+	display: flex;
+	flex-direction: column;
+	align-items: flex-end;
+	z-index: 100;
+}
+
+.bx {
+	color: white;
+	text-decoration: none;
+	padding: .9rem;
+    width: 50px;
+	display: flex;
+	transition: all .6s;
+}
+
+.bxs-home {
+	background: var(--barra)
+}
+.bxs-home:hover{
+    padding-right: 14rem;
+}
+
+.bxs-user{
+	background: var(--barra);
+}
+.bxs-user:hover{
+	padding-right: 21rem;
+}
+
+.bx-library{
+	background: var(--barra);
+}
+.bx-library:hover{
+	padding-right: 14rem;
+}
+
+.bxs-folder{
+    background: var(--barra);
+}
+
+.bxs-folder:hover{
+    padding-right: 21rem;
+}
+
+.bxs-phone{
+    background: var(--barra);
+}
+
+.bxs-phone:hover{
+    padding-right: 23rem;
+}
+
+.bx:first-child {
+	border-radius: 2rem 0 0 0;
+}
+
+.bx:last-child {
+	border-radius: 0 0 0 2rem;
+}
+
+.bx:hover {
+	border-radius: 1rem 0 0 1rem;
+	box-shadow: 0 0 .5rem rgba(0, 0, 0, 0.42);
+}
+
+/* FIN BARRA DE NAVEGACION LATERAL*/
+
+
+
+/*TITULO HOLA SOY*/
+
+#particles-js{
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100vh;
+    width: 100%;
+    z-index: -1;
+    background-color: black;
+    clip-path: polygon(0% 0%, 100% 0, 100% 90%, 50% 96%, 0 90%);
+}
+
+.quien-soy-grid{
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+
+.presentacion {
+    color: #f3f3f3;
+    margin-top: 250px;
+    margin-left: 360px;
+    font-size: 50px;
+}
+
+.presentacion-1{
+    height: 1px;
+}
+
+.presentacion-2 {
+    height: 50px;
+
+}
+
+.subtitulo {
+    font-size: 30px;
+    color: #bbbbbb;
+    padding-bottom: 50px;
+}
+
+
+.quiensoy-back img{
+    width: 70%;
+    padding-left: 100px ;
+    padding-top: 50px;
+}
+
+
+/*FIN TITULO HOLA SOY*/
+
+/*--------------------------------------------------------------------------------------------------------*/
+
+/*TEXTO-MAQUINA DE ESCRIBIR*/
+
+.grid-maquina .habilidades {
+    background: linear-gradient(to right, #f8875a, #c53838);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    text-shadow: 0 0 10px rgba(68, 37, 37, 0.288);
+    
+}
+
+/*TEXTO-MAQUINA DE ESCRIBIR FIN*/
+
+/*--------------------------------------------------------------------------------------------------------*/
+
+/*BOTON DESCARGA*/
+
+.descargar-cv{
+    text-decoration: none;
+    font-size: 18px;
+    color: #f3f3f3;
+    padding: 10px 20px;
+    background: linear-gradient(to right, #ae6446, #c53838);
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    box-shadow: none;
+    transition: 0.8s;
+}
+
+.descargar-cv:hover{
+    box-shadow: 1px 1px 11px 5px;
+}
+
+/*BOTON DESCARGA FIN*/
+
+/*--------------------------------------------------------------------------------------------------------*/
+/*GLOBAL*/
+
+
+.global-info{
+    margin: 10rem;
+}
+
+/*QUIEN SOY*/
+
+.quien-soy-interior{
+    border: 1px solid black;
+    margin-top: 250px;
+    box-shadow: 1px 1px 11px 3px #000000;
+    background-color: rgb(233, 233, 233);
+}
+
+.quien-soy{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    align-items: center;
+}
+
+.quien-soy-interior img{
+    margin-top: -100px;
+    margin-bottom: -100px;
+    width: 70%;
+    margin-left: 15rem;
+}
+
+.sobre-mi-info h2{
+    font-size: 5rem;
+    margin-top: -100px;
+}
+
+.sobre-mi-info {
+    padding: 12rem;
+    margin-top: -100px;
+    margin-bottom: -150px;
+    margin-right: 100px;
+}
+
+.division{ 
+    height: 10px;
+    border-radius: 10px;
+    width: 90px;
+    background-color: #ae6446;
+    margin-top: -40px;
+    margin-bottom: 5em;
+}
+
+.p-size-quien-soy{
+    font-size: 20px;
+}
+
+.descargar-cv-2{
+    text-decoration: none;
+    font-size: 18px;
+    color: #ffffff;
+    padding: 10px 20px;
+    background: linear-gradient(to right, #ae6446, #c53838);
+    border: none;
+    border-radius: 20px;
+    margin-top: 10px;
+    margin-right: 1.5rem;
+    cursor: pointer;
+    box-shadow: none;
+    transition: 0.8s;
+}
+
+.descargar-cv-2:hover{
+    box-shadow: 1px 1px 11px 5px #434343;
+}
+
+/*MOBAL-QUIEN SOY*/
+.modal{
+	position: fixed;
+	top: 5%;
+	left: 25%;
+	background: rgba(0,0,0,0.5);
+	transition: all 500ms ease;
+	opacity: 0;
+	visibility: hidden;
+    border-radius: 10px;
+}
+
+#btn-modal:checked ~ .modal{
+	opacity: 1;
+	visibility: visible;
+} 
+
+.contenedor{
+	width: 1000px;
+	height: 740px;
+	margin: auto;
+	background: #fff;
+	box-shadow: 1px 110px 25px rgba(0,0,0,0.6);
+	transition: all 500ms ease;
+	position: relative;
+	transform: translateY(-30%);
+    border-radius: 10px;
+}
+
+#btn-modal:checked ~ .modal .contenedor{
+	transform: translateY(0%);
+} 
+
+.contenedor header{
+	padding: 20px;
+	background: linear-gradient(to right, #f78e64, #c53838);
+	color: #fff;
+    font-size: 35px;
+    border-radius: 10px 10px 0px 0px;
+}
+
+.contenedor label{
+    padding: 10px;
+	position: absolute;
+	top: 10px;
+	right: 10px;
+	color: #fff;
+	font-size: 35px;
+	cursor: pointer;
+}
+.contenido{
+	width: 100%;
+	padding: 2.2rem;
+    background-color: rgb(232, 232, 232);
+    border-radius: 0 0 1rem 1rem;
+}
+.contenido h3{
+	margin-bottom: 10px;
+    
+}
+.p-contenido{
+    padding: 2rem 5rem 0rem 5rem;
+	margin-bottom: 7px;
+    font-size: 18px;
+}
+
+.contenedor hr{
+    size: 20;
+}
+
+.p-mis-redes{
+    font-size: 20px;
+    text-align: center;
+    font-style:initial
+}
+
+#btn-modal{
+	display: none;
+}
+.lbl-modal{
+    text-decoration: none;
+    font-size: 18px;
+    color: #ffffff;
+    padding: 10px 20px;
+    background: linear-gradient(to right, #ae6446, #c53838);
+    border: none;
+    border-radius: 20px;
+    margin-top: 10px;
+    margin-right: 1.5rem;
+    cursor: pointer;
+    box-shadow: none;
+    transition: 0.8s;
+}
+
+.lbl-modal:hover{
+    box-shadow: 1px 1px 11px 5px #434343;
+}
+
+@media only screen and (min-width:320px) and (max-width:768px){
+	.contenedor{
+		width: 95%;
+	}
+}
+
+/*REDES SOCIALES*/
+.grid-logos{
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
+    transition: 0.5s;
+}
+
+.grid-logos{
+    display: flex;
+    height: 19vh;
+    align-items: center;
+    justify-content: center;
+    margin-right: 157px;
+}
+
+.redes-sociales-ul{
+    margin-left: 4rem;
+}
+
+.quien-soy .redes-sociales-ul .redes-sociales-li{
+    display: inline-block;
+    margin: 0 50px;
+    width: 50px;
+    height: 50px;
+    text-align: left;
+}
+
+.quien-soy .redes-sociales-ul .redes-sociales-li a{
+    display: block;
+    padding: 0px;
+    line-height: 30px;
+    font-size: 100px;
+    transition: 0.6s;
+    color: #000000;
+}
+
+.quien-soy .redes-sociales-ul:hover a{
+    filter: blur(5px);
+}
+
+.quien-soy .redes-sociales-ul .redes-sociales-li a:hover{
+    transform: translateY(-3px) scale(1.05);
+    filter: none;
+}
+
+.quien-soy .redes-sociales-ul .redes-sociales-li .facebook:hover{
+    color: var(--facebook);
+}
+
+.quien-soy .redes-sociales-ul .redes-sociales-li .instagram:hover{
+    color: var(--instagram);
+}
+
+.quien-soy .redes-sociales-ul .redes-sociales-li .whatsapp:hover{
+    color: var(--whatsapp);
+}
+
+.quien-soy .redes-sociales-ul .redes-sociales-li .linkedin:hover{
+    color: var(--linkedin);
+}
+
+.quien-soy .redes-sociales-ul .redes-sociales-li .gmail:hover{
+    color: var(--gmail);
+}
+/*FIN MOBAL-QUIEN SOY*/
+
+/*QUIEN SOY - FIN*/
+
+/*--------------------------------------------------------------------------------------------------------*/
+/*MIS SKILLS*/
+/*FIN MIS SKILLS*/
+/*--------------------------------------------------------------------------------------------------------*/
