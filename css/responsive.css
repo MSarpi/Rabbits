@@ -1,0 +1,456 @@
+@media (max-width:1440px){
+
+    /*BARRA DE NAVEGACION LATERAL*/
+
+    .barra-navegacion {
+        position: fixed;
+        right: 0;
+        top: 30%;
+        font-size: 4rem;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-end;
+        z-index: 100;
+    }
+
+
+    /*TITULO HOLA SOY*/
+
+    .presentacion {
+        color: #f3f3f3;
+        margin-top: 200px;
+        margin-left: 300px;
+        font-size: 50px;
+    }
+
+    .quiensoy-back img{
+        width: 90%;
+    }
+
+
+    /*FIN TITULO HOLA SOY*/
+
+    /*QUIEN SOY*/
+
+    .quien-soy-interior img{
+        margin-top: -100px;
+        margin-bottom: -100px;
+        width: 90%;
+        margin-left: 10rem;
+    }
+
+    .sobre-mi-info h2{
+        font-size: 3rem;
+        margin-top: -50px;
+    }
+
+    .sobre-mi-info {
+        padding: 12rem;
+        margin-top: -100px;
+        margin-bottom: -150px;
+        margin-right: 0.1px;
+    }
+
+    .division{ 
+        height: 10px;
+        border-radius: 10px;
+        width: 90px;
+        background-color: #ae6446;
+        margin-top: -30px;
+        margin-bottom: 5em;
+    }
+
+
+
+    .descargar-cv-2{
+        text-decoration: none;
+        font-size: 18px;
+        color: #ffffff;
+        padding: 10px 20px;
+        background: linear-gradient(to right, #ae6446, #c53838);
+        border: none;
+        border-radius: 20px;
+        margin-top: 10px;
+        margin-right: 1.5rem;
+        cursor: pointer;
+        box-shadow: none;
+        transition: 0.8s;
+    }
+
+    .descargar-cv-2:hover{
+        box-shadow: 1px 1px 11px 5px #434343;
+    }
+
+    /*MOBAL-QUIEN SOY*/
+    .modal{
+        position: fixed;
+        top: 2%;
+        left: 16%;
+        background: rgba(0,0,0,0.5);
+        transition: all 500ms ease;
+        opacity: 0;
+        visibility: hidden;
+        border-radius: 10px;
+    }
+
+    /*QUIEN SOY - FIN*/
+
+    /*--------------------------------------------------------------------------------------------------------*/
+    /*MIS SKILLS*/
+    /*FIN MIS SKILLS*/
+    /*--------------------------------------------------------------------------------------------------------*/
+
+}
+
+@media (max-width:1280px){
+
+    /*TITULO HOLA SOY*/
+
+    .presentacion {
+        color: #f3f3f3;
+        margin-top: 200px;
+        margin-left: 200px;
+        font-size: 50px;
+    }
+
+    .quiensoy-back img{
+        width: 100%
+    }
+
+    /*FIN TITULO HOLA SOY*/
+
+    /*QUIEN SOY*/
+
+    .quien-soy-interior img{
+        margin-top: -150px;
+        margin-bottom: -100px;
+        width: 101%;
+        margin-left: 6rem;
+    }
+
+    .sobre-mi-info h2{
+        font-size: 3rem;
+        margin-top: 90px;
+    }
+
+    .sobre-mi-info {
+        padding: 12rem;
+        margin-top: -200px;
+        margin-bottom: -100px;
+        margin-right: 0.1px;
+    }
+
+    .division{ 
+        width: 70px;
+    }
+
+
+    /*MOBAL-QUIEN SOY*/
+    .modal{
+        position: fixed;
+        top: 2%;
+        left: 12%;
+        background: rgba(0,0,0,0.5);
+        transition: all 500ms ease;
+        opacity: 0;
+        visibility: hidden;
+        border-radius: 10px;
+    }
+
+    /*QUIEN SOY - FIN*/
+
+    /*--------------------------------------------------------------------------------------------------------*/
+    /*MIS SKILLS*/
+    /*FIN MIS SKILLS*/
+    /*--------------------------------------------------------------------------------------------------------*/
+
+}
+
+@media (max-width:1024px){
+
+    #particles-js{
+        height: 60vh;
+    }
+
+    /*TITULO HOLA SOY*/
+
+    .presentacion {
+        color: #f3f3f3;
+        margin-top: 200px;
+        margin-left: 100px;
+        font-size: 50px;
+    }
+
+    .quiensoy-back img{
+        width: 110%;
+    }
+    /*FIN TITULO HOLA SOY*/
+
+    /*QUIEN SOY*/
+
+    .quien-soy{
+        display: grid;
+        grid-template-columns:100%;
+        align-items: center;
+    }
+
+    .quien-soy-interior img{
+        margin-top: -100px;
+        width: 50%;
+        margin-left: 20rem;
+    }
+
+    .sobre-mi-info h2{
+        font-size: 3rem;
+        margin-top: 50px;
+    }
+
+    .sobre-mi-info {
+        padding: 12rem;
+        margin-top: -50px;
+        margin-bottom: -100px;
+    }
+
+
+
+    .descargar-cv-2{
+        text-decoration: none;
+        font-size: 18px;
+        color: #ffffff;
+        padding: 10px 20px;
+        background: linear-gradient(to right, #ae6446, #c53838);
+        border: none;
+        border-radius: 20px;
+        margin-top: 10px;
+        margin-right: 1.5rem;
+        cursor: pointer;
+        box-shadow: none;
+        transition: 0.8s;
+    }
+
+    .descargar-cv-2:hover{
+        box-shadow: 1px 1px 11px 5px #434343;
+    }
+
+    /*MOBAL-QUIEN SOY*/
+    .modal{
+        position: fixed;
+        top: 2%;
+        left: 1%;
+        background: rgba(0,0,0,0.5);
+        transition: all 500ms ease;
+        opacity: 0;
+        visibility: hidden;
+        border-radius: 10px;
+    }
+
+    /*QUIEN SOY - FIN*/
+
+    /*--------------------------------------------------------------------------------------------------------*/
+    /*MIS SKILLS*/
+    /*FIN MIS SKILLS*/
+    /*--------------------------------------------------------------------------------------------------------*/
+
+}
+
+@media (max-width:414px){
+
+    #particles-js{
+        height: 80vh;
+    }
+    /*TITULO HOLA SOY*/
+
+    .presentacion {
+        color: #f3f3f3;
+        margin-top: 10rem;
+        margin-left: 0;
+        font-size: 20px;
+    }
+
+    .quiensoy-back img{
+        display: none;
+    }
+
+
+    /*FIN TITULO HOLA SOY*/
+
+    /*QUIEN SOY*/
+
+    .global-info{
+        margin: 1rem;
+    }
+
+    .quien-soy{
+        display: grid;
+        grid-template-columns: 100%;
+        align-items: center;
+    }
+
+    .quien-soy-interior img{
+        margin-top: 0;
+        margin-bottom: 0;
+        width: 80%;
+        margin-left: 5rem;
+    }
+
+    .sobre-mi-info h2{
+        font-size: 3rem;
+        margin-top: 50px;
+    }
+
+    .sobre-mi-info {
+        padding: 3rem;
+        margin-top: -60px;
+        margin-bottom: 0px;
+        margin-right: 0.1px;
+    }
+
+    .division{ 
+        height: 10px;
+        border-radius: 10px;
+        width: 90px;
+        background-color: #ae6446;
+        margin-top: -30px;
+        margin-bottom: 5em;
+    }
+
+    .descargar-cv-2{
+        text-decoration: none;
+        font-size: 18px;
+        color: #ffffff;
+        padding: 10px 20px;
+        background: linear-gradient(to right, #ae6446, #c53838);
+        border: none;
+        border-radius: 20px;
+        margin-top: 10px;
+        margin-right: 1.5rem;
+        cursor: pointer;
+        box-shadow: none;
+        transition: 0.8s;
+    }
+
+    .descargar-cv-2:hover{
+        box-shadow: 1px 1px 11px 5px #434343;
+    }
+
+    /*MOBAL-QUIEN SOY*/
+    .modal{
+        position: fixed;
+        top: 2%;
+        left: 16%;
+        background: rgba(0,0,0,0.5);
+        transition: all 500ms ease;
+        opacity: 0;
+        visibility: hidden;
+        border-radius: 10px;
+    }
+
+    /*QUIEN SOY - FIN*/
+
+    /*--------------------------------------------------------------------------------------------------------*/
+    /*MIS SKILLS*/
+    /*FIN MIS SKILLS*/
+    /*--------------------------------------------------------------------------------------------------------*/
+
+}
+
+@media (max-width:375px){
+
+    #particles-js{
+        height: 80vh;
+    }
+    /*TITULO HOLA SOY*/
+
+    .presentacion {
+        color: #f3f3f3;
+        margin-top: 10rem;
+        margin-left: 0;
+        font-size: 20px;
+    }
+
+    .quiensoy-back img{
+        display: none;
+    }
+
+
+    /*FIN TITULO HOLA SOY*/
+
+    /*QUIEN SOY*/
+
+    .global-info{
+        margin: 1rem;
+    }
+
+    .quien-soy{
+        display: grid;
+        grid-template-columns: 100%;
+        align-items: center;
+    }
+
+    .quien-soy-interior img{
+        margin-top: 0;
+        margin-bottom: 0;
+        width: 80%;
+        margin-left: 5rem;
+    }
+
+    .sobre-mi-info h2{
+        font-size: 3rem;
+        margin-top: 50px;
+    }
+
+    .sobre-mi-info {
+        padding: 3rem;
+        margin-top: -60px;
+        margin-bottom: 0px;
+        margin-right: 0.1px;
+    }
+
+    .division{ 
+        height: 10px;
+        border-radius: 10px;
+        width: 90px;
+        background-color: #ae6446;
+        margin-top: -30px;
+        margin-bottom: 5em;
+    }
+
+    .descargar-cv-2{
+        text-decoration: none;
+        font-size: 18px;
+        color: #ffffff;
+        padding: 10px 20px;
+        background: linear-gradient(to right, #ae6446, #c53838);
+        border: none;
+        border-radius: 20px;
+        margin-top: 10px;
+        margin-right: 1.5rem;
+        cursor: pointer;
+        box-shadow: none;
+        transition: 0.8s;
+    }
+
+    .descargar-cv-2:hover{
+        box-shadow: 1px 1px 11px 5px #434343;
+    }
+
+    /*MOBAL-QUIEN SOY*/
+    .modal{
+        position: fixed;
+        top: 2%;
+        left: 16%;
+        background: rgba(0,0,0,0.5);
+        transition: all 500ms ease;
+        opacity: 0;
+        visibility: hidden;
+        border-radius: 10px;
+    }
+
+    /*QUIEN SOY - FIN*/
+
+    /*--------------------------------------------------------------------------------------------------------*/
+    /*MIS SKILLS*/
+    /*FIN MIS SKILLS*/
+    /*--------------------------------------------------------------------------------------------------------*/
+
+}
