@@ -169,7 +169,14 @@
 @media (max-width:1024px){
 
     #particles-js{
+        position: absolute;
+        top: 0;
+        left: 0;
         height: 60vh;
+        width: 100%;
+        z-index: -1;
+        background-color: black;
+        clip-path: polygon(0% 0%, 100% 0, 100% 90%, 50% 96%, 0 90%);
     }
 
     /*TITULO HOLA SOY*/
