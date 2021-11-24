@@ -168,6 +168,9 @@
 
 @media (max-width:1024px){
 
+    /*BARRA DE NAVEGACION LATERAL*/
+
+
     #particles-js{
         position: absolute;
         top: 0;
@@ -341,17 +344,10 @@
     }
 
     /*MOBAL-QUIEN SOY*/
-    .modal{
-        position: fixed;
-        top: 2%;
-        left: 16%;
-        background: rgba(0,0,0,0.5);
-        transition: all 500ms ease;
-        opacity: 0;
-        visibility: hidden;
-        border-radius: 10px;
-    }
 
+    .sobre-mi-info label{
+        display: none;
+    }
     /*QUIEN SOY - FIN*/
 
     /*--------------------------------------------------------------------------------------------------------*/
@@ -363,8 +359,30 @@
 
 @media (max-width:375px){
 
+    /*BARRA DE NAVEGACION LATERAL*/
+
+    .barra-navegacion {
+        position: fixed;
+        right: 0;
+        top: 30%;
+        font-size: 3rem;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-end;
+        z-index: 100;
+    }
+
+    .bx {
+        color: white;
+        text-decoration: none;
+        padding: .9rem;
+        width: 50px;
+        display: flex;
+        transition: all .6s;
+    }
+
     #particles-js{
-        height: 80vh;
+        height: 50vh;
     }
     /*TITULO HOLA SOY*/
 
@@ -379,6 +397,57 @@
         display: none;
     }
 
+    .bxs-home {
+        background: var(--barra)
+    }
+    .bxs-home:hover{
+        padding-right: 12.5rem;
+    }
+    
+    .bxs-user{
+        background: var(--barra);
+    }
+    .bxs-user:hover{
+        padding-right: 17rem;
+    }
+    
+    .bx-library{
+        background: var(--barra);
+    }
+    .bx-library:hover{
+        padding-right: 12rem;
+    }
+    
+    .bxs-folder{
+        background: var(--barra);
+    }
+    
+    .bxs-folder:hover{
+        padding-right: 16.7rem;
+    }
+    
+    .bxs-phone{
+        background: var(--barra);
+    }
+    
+    .bxs-phone:hover{
+        padding-right: 19.7rem;
+    }
+    
+    .bx:first-child {
+        border-radius: 2rem 0 0 0;
+    }
+    
+    .bx:last-child {
+        border-radius: 0 0 0 2rem;
+    }
+    
+    .bx:hover {
+        border-radius: 1rem 0 0 1rem;
+        box-shadow: 0 0 .5rem rgba(0, 0, 0, 0.42);
+    }
+    
+    /* FIN BARRA DE NAVEGACION LATERAL*/
 
     /*FIN TITULO HOLA SOY*/
 

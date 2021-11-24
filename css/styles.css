@@ -344,6 +344,7 @@ body{
 #btn-modal{
 	display: none;
 }
+
 .lbl-modal{
     text-decoration: none;
     font-size: 18px;
@@ -361,12 +362,6 @@ body{
 
 .lbl-modal:hover{
     box-shadow: 1px 1px 11px 5px #434343;
-}
-
-@media only screen and (min-width:320px) and (max-width:768px){
-	.contenedor{
-		width: 95%;
-	}
 }
 
 /*REDES SOCIALES*/
