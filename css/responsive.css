@@ -101,7 +101,6 @@
     /*--------------------------------------------------------------------------------------------------------*/
 
 }
-
 @media (max-width:1280px){
 
     /*TITULO HOLA SOY*/
@@ -165,7 +164,6 @@
     /*--------------------------------------------------------------------------------------------------------*/
 
 }
-
 @media (max-width:1024px){
 
     /*BARRA DE NAVEGACION LATERAL*/
@@ -262,13 +260,53 @@
     /*--------------------------------------------------------------------------------------------------------*/
 
 }
-
 @media (max-width:414px){
 
     .barra-navegacion {
-display: none;
+    display: none;
     }
 
+    /*FIN TITULO HOLA SOY*/
+
+    #particles-js{
+        height: 70vh;
+        width: 100%;
+    }
+
+    /*FIN TITULO HOLA SOY*/
+    .quien-soy-grid{
+        display: grid;
+        grid-template-columns: 100%;
+    }
+    
+    .presentacion {
+        color: #f3f3f3;
+        margin-top: 70px;
+        margin-left: 0px;
+        font-size: 30px;
+    }
+    
+    .presentacion-1{
+        height: 1px;
+    }
+    
+    .presentacion-2 {
+        height: 50px;
+    
+    }
+    
+    .subtitulo {
+        font-size: 30px;
+        color: #bbbbbb;
+        padding-bottom: 30px;
+    }
+    
+    
+    .quiensoy-back img{
+        display: none;
+    }
+    
+    
     /*FIN TITULO HOLA SOY*/
 
     /*QUIEN SOY*/
@@ -346,79 +384,12 @@ display: none;
 @media (max-width:375px){
 
     .barra-navegacion {
-        position: fixed;
-        right: -1.3rem;
-        left: 0;
-        top: 30%;
-        font-size: 3rem;
-        display: flex;
-        flex-direction: column;
-        align-items: flex-end;
-        z-index: 100;
-    }
-    
-    .bx {
-        color: white;
-        text-decoration: none;
-        padding: .9rem;
-        width: 50px;
-        display: flex;
-        transition: all .6s;
-    }
-    
-    .bxs-home {
-        background: var(--barra)
-    }
-    .bxs-home:hover{
-        padding-right: 14rem;
-    }
-    
-    .bxs-user{
-        background: var(--barra);
-    }
-    .bxs-user:hover{
-        padding-right: 21rem;
-    }
-    
-    .bx-library{
-        background: var(--barra);
-    }
-    .bx-library:hover{
-        padding-right: 14rem;
-    }
-    
-    .bxs-folder{
-        background: var(--barra);
-    }
-    
-    .bxs-folder:hover{
-        padding-right: 21rem;
-    }
-    
-    .bxs-phone{
-        background: var(--barra);
-    }
-    
-    .bxs-phone:hover{
-        padding-right: 23rem;
-    }
-    
-    .bx:first-child {
-        border-radius: 2rem 0 0 0;
-    }
-    
-    .bx:last-child {
-        border-radius: 0 0 0 2rem;
-    }
-    
-    .bx:hover {
-        border-radius: 1rem 0 0 1rem;
-        box-shadow: 0 0 .5rem rgba(0, 0, 0, 0.42);
+        display: none;
     }
 
    
     #particles-js{
-        height: 50vh;
+        height: 80vh;
     }
     /*TITULO HOLA SOY*/
 
