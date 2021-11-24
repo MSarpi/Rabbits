@@ -290,14 +290,14 @@
         background: var(--barra)
     }
     .bxs-home:hover{
-        padding-right: 10.8rem;
+        padding-right: 12rem;
     }
     
     .bxs-user{
         background: var(--barra);
     }
     .bxs-user:hover{
-        padding-right: 17rem;
+        padding-right: 18rem;
     }
     
     .bx-library{
@@ -312,7 +312,7 @@
     }
     
     .bxs-folder:hover{
-        padding-right: 16.7rem;
+        padding-right: 18rem;
     }
     
     .bxs-phone{
@@ -320,7 +320,7 @@
     }
     
     .bxs-phone:hover{
-        padding-right: 19.7rem;
+        padding-right: 21rem;
     }
     
     .bx:first-child {
