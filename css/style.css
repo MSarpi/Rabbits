@@ -67,11 +67,7 @@ html{
   input[type="checkbox"]{
     display: none;
   }
-  @media (max-width: 1000px){
-    nav{
-      padding: 0 40px 0 350px;
-    }
-  }
+
   @media (max-width: 920px) {
     nav .menu-btn i{
       display: block;
@@ -330,7 +326,7 @@ html{
 
   /*TITULO HOLA SOY*/
   nav{
-    padding: 0 40px 0 700px;
+    padding: 0 40px 0 690px;
   }
 
   .quien-soy-grid{
@@ -372,7 +368,7 @@ html{
 
 @media (max-width:425px) and (max-height:736px){
   nav{
-    padding: 0 40px 0 300px;
+    padding: 0 40px 0 380px;
   }
 
    /*TITULO HOLA SOY*/
@@ -415,7 +411,7 @@ html{
 
 @media (max-width:375px) and (max-height:812px){
   nav{
-    padding: 0 40px 0 370px;
+    padding: 0 40px 0 340px;
   }
 
   /*TITULO HOLA SOY*/
@@ -1999,182 +1995,181 @@ html{
 
 @media (max-width:425px) and (max-height:736px){
    
-    /*GLOBAL*/
+  /*GLOBAL*/
+  
+  .global-info{
+    margin: 0.5rem;
+  }
     
-    .global-info{
-      margin: 0.5rem;
-    }
-      
-    .quien-soy-interior{
-      border: 1px solid black;
-      margin-top: 250px;
-      box-shadow: 1px 1px 11px 3px #000000;
-      background-color: rgb(233, 233, 233);
-    }
-    
-    .quien-soy{
-      display: grid;
-      grid-template-columns: 100%;
-      align-items: center;
-    }
-    
-    .quien-soy-interior img{
-      margin-top: -100px;
-      margin-bottom: 0px;
-      width: 90%;
-      margin-left: 1rem;
-    }
-    
-    .sobre-mi-info h2{
-      font-size: 2.1rem;
-      margin-top: -1rem;
-    }
-    
-    .sobre-mi-info {
-      padding: 1.5rem;
-      margin-top: 0rem;
-      margin-bottom: 10px;
-      margin-right: 0px;
-    }
-    
-    .division{ 
-      height: 10px;
-      border-radius: 10px;
-      width: 90px;
-      background-color: #ae6446;
-      margin-top: -10px;
-      margin-bottom: 3em;
-    }
-    
-    .p-size-quien-soy{
-      font-size: 15px;
-    }
-    
-    .descargar-cv-2{
-      text-decoration: none;
-      font-size: 14px;
-      color: #ffffff;
-      padding: 10px 20px;
-      background: linear-gradient(to right, #ae6446, #c53838);
-      border: none;
-      border-radius: 20px;
-      margin-top: 10px;
-      margin-right: 1.5rem;
-      cursor: pointer;
-      box-shadow: none;
-      transition: 0.8s;
-    }
-    
-    .descargar-cv-2:hover{
-      box-shadow: 1px 1px 11px 5px #434343;
-    }
+  .quien-soy-interior{
+    border: 1px solid black;
+    margin-top: 250px;
+    box-shadow: 1px 1px 11px 3px #000000;
+    background-color: rgb(233, 233, 233);
+  }
+  
+  .quien-soy{
+    display: grid;
+    grid-template-columns: 100%;
+    align-items: center;
+  }
+  
+  .quien-soy-interior img{
+    margin-top: -100px;
+    margin-bottom: 0px;
+    width: 90%;
+    margin-left: 1rem;
+  }
+  
+  .sobre-mi-info h2{
+    font-size: 2.1rem;
+    margin-top: -1rem;
+  }
+  
+  .sobre-mi-info {
+    padding: 1.5rem;
+    margin-top: 0rem;
+    margin-bottom: 10px;
+    margin-right: 0px;
+  }
+  
+  .division{ 
+    height: 10px;
+    border-radius: 10px;
+    width: 90px;
+    background-color: #ae6446;
+    margin-top: -10px;
+    margin-bottom: 3em;
+  }
+  
+  .p-size-quien-soy{
+    font-size: 15px;
+  }
+  
+  .descargar-cv-2{
+    text-decoration: none;
+    font-size: 14px;
+    color: #ffffff;
+    padding: 10px 20px;
+    background: linear-gradient(to right, #ae6446, #c53838);
+    border: none;
+    border-radius: 20px;
+    margin-top: 10px;
+    margin-right: 1.5rem;
+    cursor: pointer;
+    box-shadow: none;
+    transition: 0.8s;
+  }
+  
+  .descargar-cv-2:hover{
+    box-shadow: 1px 1px 11px 5px #434343;
+  }
 
-  /*-----------------------------------------------------------------------------*/
-  /*RESPONSIVE MOBAL- SOBRE MI*/
+/*-----------------------------------------------------------------------------*/
+/*RESPONSIVE MOBAL- SOBRE MI*/
 
-    /*MOBAL-QUIEN SOY*/
-      label{
-        display: none;
-      }
-      .modal{
+  /*MOBAL-QUIEN SOY*/
+    .sobre-mi-info label{
       display: none;
-      }
-      
-     
-  /*FIN MOBAL-QUIEN SOY*/
+    }
+    .modal{
+    display: none;
+    }
+    
+   
+/*FIN MOBAL-QUIEN SOY*/
 
-  /*RESPONSIVE MOBAL- SOBRE MI*/
-  /*-----------------------------------------------------------------------------*/
+/*RESPONSIVE MOBAL- SOBRE MI*/
+/*-----------------------------------------------------------------------------*/
 }
 
 @media (max-width:375px) and (max-height:812px){
-     
-    /*GLOBAL*/
+   
+  /*GLOBAL*/
+  
+  .global-info{
+    margin: 0.5rem;
+  }
     
-    .global-info{
-      margin: 0.5rem;
-    }
-      
-    .quien-soy-interior{
-      border: 1px solid black;
-      margin-top: 250px;
-      box-shadow: 1px 1px 11px 3px #000000;
-      background-color: rgb(233, 233, 233);
-    }
-    
-    .quien-soy{
-      display: grid;
-      grid-template-columns: 100%;
-      align-items: center;
-    }
-    
-    .quien-soy-interior img{
-      margin-top: -100px;
-      margin-bottom: 0px;
-      width: 90%;
-      margin-left: 1rem;
-    }
-    
-    .sobre-mi-info h2{
-      font-size: 2.1rem;
-      margin-top: -1rem;
-    }
-    
-    .sobre-mi-info {
-      padding: 1.5rem;
-      margin-top: 0rem;
-      margin-bottom: 10px;
-      margin-right: 0px;
-    }
-    
-    .division{ 
-      height: 10px;
-      border-radius: 10px;
-      width: 90px;
-      background-color: #ae6446;
-      margin-top: -10px;
-      margin-bottom: 3em;
-    }
-    
-    .p-size-quien-soy{
-      font-size: 15px;
-    }
-    
-    .descargar-cv-2{
-      text-decoration: none;
-      font-size: 14px;
-      color: #ffffff;
-      padding: 10px 20px;
-      background: linear-gradient(to right, #ae6446, #c53838);
-      border: none;
-      border-radius: 20px;
-      margin-top: 10px;
-      margin-right: 1.5rem;
-      cursor: pointer;
-      box-shadow: none;
-      transition: 0.8s;
-    }
-    
-    .descargar-cv-2:hover{
-      box-shadow: 1px 1px 11px 5px #434343;
-    }
+  .quien-soy-interior{
+    border: 1px solid black;
+    margin-top: 250px;
+    box-shadow: 1px 1px 11px 3px #000000;
+    background-color: rgb(233, 233, 233);
+  }
+  
+  .quien-soy{
+    display: grid;
+    grid-template-columns: 100%;
+    align-items: center;
+  }
+  
+  .quien-soy-interior img{
+    margin-top: -100px;
+    margin-bottom: 0px;
+    width: 90%;
+    margin-left: 1rem;
+  }
+  
+  .sobre-mi-info h2{
+    font-size: 2.1rem;
+    margin-top: -1rem;
+  }
+  
+  .sobre-mi-info {
+    padding: 1.5rem;
+    margin-top: 0rem;
+    margin-bottom: 10px;
+    margin-right: 0px;
+  }
+  
+  .division{ 
+    height: 10px;
+    border-radius: 10px;
+    width: 90px;
+    background-color: #ae6446;
+    margin-top: -10px;
+    margin-bottom: 3em;
+  }
+  
+  .p-size-quien-soy{
+    font-size: 15px;
+  }
+  
+  .descargar-cv-2{
+    text-decoration: none;
+    font-size: 14px;
+    color: #ffffff;
+    padding: 10px 20px;
+    background: linear-gradient(to right, #ae6446, #c53838);
+    border: none;
+    border-radius: 20px;
+    margin-top: 10px;
+    margin-right: 1.5rem;
+    cursor: pointer;
+    box-shadow: none;
+    transition: 0.8s;
+  }
+  
+  .descargar-cv-2:hover{
+    box-shadow: 1px 1px 11px 5px #434343;
+  }
 
-  /*-----------------------------------------------------------------------------*/
-  /*RESPONSIVE MOBAL- SOBRE MI*/
+/*-----------------------------------------------------------------------------*/
+/*RESPONSIVE MOBAL- SOBRE MI*/
 
-    /*MOBAL-QUIEN SOY*/
-      label{
-        display: none;
-      }
-      .modal{
-      display: none;
-      }
-      
-     
-  /*FIN MOBAL-QUIEN SOY*/
+  /*MOBAL-QUIEN SOY*/
+  .sobre-mi-info label{
+    display: none;
+  }
+  .modal{
+  display: none;
+  }
+   
+/*FIN MOBAL-QUIEN SOY*/
 
-  /*RESPONSIVE MOBAL- SOBRE MI*/
-  /*-----------------------------------------------------------------------------*/
+/*RESPONSIVE MOBAL- SOBRE MI*/
+/*-----------------------------------------------------------------------------*/
 } 
 
 @media (max-width:375px) and (max-height:667px){
