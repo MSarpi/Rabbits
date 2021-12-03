@@ -1,71 +1,74 @@
 <!DOCTYPE html>
-<html lang="es">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Rabbit Design</title>
+<html lang="en" dir="ltr">
 
+    <head>
+      <meta charset="UTF-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <meta name="viewport" content="width=device-width">
+      <title>Rabbit Design</title>
+  
+      <!--LINK CSS-->
+      <link rel="stylesheet" href="/css/style.css">
 
-    <!--CUSTOM CSS-->
-    <link rel="stylesheet" href="css/styles.css">
+      <!--RECURSOS-->
+      <link href='https://unpkg.com/boxicons@2.0.9/css/boxicons.min.css' rel='stylesheet'>
+      <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css">
+      <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 
-    <!--RESPONSIVE-->
-    <link rel="stylesheet" href="css/responsive.css">
-
-
-    <link href='https://unpkg.com/boxicons@2.0.9/css/boxicons.min.css' rel='stylesheet'>
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css">
-    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
-</head>
-<body>
+      <script src="https://kit.fontawesome.com/a076d05399.js"></script>
     
-    <header id="inicio" >
+    </head>
 
-    </header>
+  <body>
+<!--INICIO HEADER-->
+<nav id="inicio">
+        <input type="checkbox" id="click">
+        <label for="click" class="menu-btn">
+          <i class="fas fa-bars"></i>
+        </label>
+        <ul>
+          <li><a class="active" href="#inicio">Inicio</a></li>
+          <li><a href="#sobre-mi">Sobre Mí</a></li>
+          <li><a href="#">Skill's</a></li>
+          <li><a href="#">Portafolio</a></li>
+          <li><a href="#">Contactame</a></li>
+        </ul>
+</nav>
+<!--FIN HEADER-->
 
-    <div class="barra-navegacion">
-        <a href="#inicio"   class="bx bxs-home">Home</a>
-        <a href="#quiensoy" class="bx bxs-user">Sobre⠀mi</a>
-        <a href="#skill"    class="bx bx-library">Skills</a>
-        <a href="#"          class="bx bxs-folder">Proyectos</a>
-        <a href="#"          class="bx bxs-phone">Contactame</a>
-    </div>
-
-<!--TITULO QUIEN SOY -->
-
+<!--INICIO TITULO PRESENTACION-->
 <div class="path-poligon">
     
-    <header id="inicio" class="quiensoy-back">
-        <div id="particles-js"></div>
-        <div  class="quien-soy-grid">
-            
-            <div class="presentacion">
-                    
-                    <h3 class="presentacion-1">¡Hola! Soy</h3>
-                    <h2 class="presentacion-2">Miguel <span class="presentacion-3">Sarpi</span></h2>  
-
-                <div class="grid-maquina">
-                    <p class="subtitulo">Especializado en:⠀<span class="maquina"></span></p>
-                </div>
-
-                <div class="main-button">
-                    <a href="download/Cv-Miguel-Sarpi.docx" class="descargar-cv" download>Descargar CV</a>
-                </div>
-
-            </div>
-
-            <div class="img-portada">
-                <img src="img/Portada.png" alt="rabbitdesign">
-            </div>
-        </div > 
-   
-    </header> 
-</div>
-</div>
-    <!--FIN - TITULO QUIEN SOY -->   
+      <header class="quiensoy-back">
+          <div id="particles-js"></div>
+          <div  class="quien-soy-grid">
+              
+              <div class="presentacion">
+                      
+                      <h3 class="presentacion-1">¡Hola! Soy</h3><br>
+                      <h2 class="presentacion-2">Miguel <span class="presentacion-3">Sarpi</span></h2><br>
   
-<div class="backgraund-global">
+                  <div class="grid-maquina">
+                      <p class="subtitulo">Especializado en:⠀<span class="maquina"></span></p>
+                  </div>
+  
+                  <div class="main-button">
+                      <a href="download/Cv-Miguel-Sarpi.docx" class="descargar-cv" download>Descargar CV</a>
+                  </div>
+  
+              </div>
+  
+              <div class="img-portada">
+                  <img src="img/Portada.png" alt="rabbitdesign">
+              </div>
+          </div > 
+     
+      </header> 
+</div>
+<!--FIN TITULO PRESENTACION-->
+
+<!--INICIO - SOBRE MI-->
+  <div id="sobre-mi" class="backgraund-global">
     <div  class="global-info">
         <div class="quien-soy-interior">     
             <div id="quiensoy" class="quien-soy">
@@ -82,7 +85,7 @@
                     </p>
                     <a href="download/Cv-Miguel-Sarpi.docx" class="descargar-cv-2" download>Descargar CV</a>
                     <input type="checkbox" id="btn-modal">
-                    <label for="btn-modal" class="lbl-modal">Leer mas</label>
+                    <label for="btn-modal" class="descargar-cv-2">Leer mas</label>
                     <div class="modal">
                         <div class="contenedor">
                             <header>Sobre mi</header>
@@ -90,7 +93,7 @@
                             <div class="contenido">
                                 <h3><!-- Agregar un titulo --></h3>
                                 
-                                 <p class="p-contenido">
+                                <p class="p-contenido">
                                     Mi nombre es Miguel Angel Sarpi Rivero, Analista Programador Computacional egresado del instituto IP CHILE en el año 2019.
                                     <br>
                                     <br>
@@ -106,11 +109,11 @@
                                     <br>
                                     <br>
                                     <br>
-                                 </p>
-                                 <hr>
-                                 <p class="p-mis-redes">Mis redes sociales:</p>
-                                 <br>
-                                 <ul class="redes-sociales-ul" data-aos="fade-up">
+                                </p>
+                                <hr>
+                                <p class="p-mis-redes">Mis redes sociales:</p>
+                                <br>
+                                <ul class="redes-sociales-ul" data-aos="fade-up">
                                     <li class="redes-sociales-li"><a href="https://www.facebook.com/miguel.sarpi/" target="_blank" class="facebook"><i class="fab fa-facebook-f"></i></a></li>
                                     <li class="redes-sociales-li"><a href="https://www.instagram.com/jinsei_ilustrador/?hl=es-la" target="_blank" class="instagram"><i class="fab fa-instagram"></i></a></li>
                                     <li class="redes-sociales-li"><a href="https://api.whatsapp.com/send?phone=56957326432&text=Hola!%20vengo%20de%20tu%20pagina%20web" target="_blank" class="whatsapp"><i class="fab fa-whatsapp"></i></a></li>
@@ -124,17 +127,18 @@
             </div>
         </div>
     </div>
-</div>  
+  </div> 
+<!--FIN - SOBRE MI-->
 
-    
-<!--JAVASCRIPT-->
-    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
-    <script>
-        AOS.init();
-      </script>
-    <script src="js/typed.js"></script>
-    <script src="js/main.js"></script>
-    <script src="js/particles.min.js"></script>
-    <script src="js/app.js"></script>
-</body>
+<!--JS-->
+  <!--JAVASCRIPT-->
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script>
+      AOS.init();
+    </script>
+  <script src="js/typed.js"></script>
+  <script src="js/main.js"></script>
+  <script src="js/particles.min.js"></script>
+  <script src="js/app.js"></script>
+  </body>
 </html>
