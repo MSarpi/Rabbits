@@ -764,7 +764,7 @@ body{
       line-height: 30px;
       font-size: 100px;
       transition: 0.6s;
-      color: #000000;
+      color: #ffffff;
     }
     
     .quien-soy .redes-sociales-ul:hover a{
@@ -2240,7 +2240,7 @@ body{
     .grid-skill{
       display: grid;
       grid-template-columns: 50% 50%;
-      background-color: rgb(38, 38, 38);
+      /*background-color: rgb(38, 38, 38);*/
     }
 
     .skill .p-contenido {
@@ -2410,6 +2410,11 @@ body{
       content: "30%";
     }
 
+  }
+
+  .img-skill{
+    width: 100%;
+    margin-top: 10rem;
   }
 }
 /*FINAL-SKILL'S*/
