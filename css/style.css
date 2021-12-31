@@ -597,7 +597,7 @@ body{
     padding: 12rem;
     margin-top: -100px;
     margin-bottom: -150px;
-    margin-right: 100px;
+    margin-right: 0px;
   }
 
   .division{ 
@@ -834,7 +834,7 @@ body{
     padding: 7rem;
     margin-top: -1px;
     margin-bottom: -160px;
-    margin-right: 100px;
+    margin-right: 0px;
   }
   
   .division{ 
@@ -2095,13 +2095,13 @@ body{
   /*GLOBAL*/
   
   .global-info{
-    margin: 0.5rem;
+    margin: 1rem;
   }
     
   .quien-soy-interior{
     border: 1px solid black;
     margin-top: 250px;
-    margin-left: 55px;
+    margin-left: 0px;
     box-shadow: 1px 1px 11px 3px #000000;
     background-color: rgb(38, 38, 38);
   }
@@ -2115,8 +2115,8 @@ body{
   .quien-soy-interior img{
     margin-top: -100px;
     margin-bottom: 0px;
-    width: 130%;
-    margin-left: -2.5rem;
+    width: 100%;
+    margin-left: 0rem;
   }
   
   .sobre-mi-info h2{
@@ -2205,7 +2205,7 @@ body{
   .quien-soy-interior{
     border: 1px solid black;
     margin-top: 250px;
-    margin-left: 30px;
+    margin-left: 0px;
     box-shadow: 1px 1px 11px 3px #000000;
        background-color: rgb(38, 38, 38);
   }
@@ -2233,7 +2233,7 @@ body{
 @media screen {
   @media screen {
     .p-contenido-skill{
-      padding: 0rem 0rem 0rem 5rem;
+      padding: 0rem 0rem 0rem 1.5rem;
     }
 
     .img-skill{
@@ -2242,7 +2242,7 @@ body{
     }
 
     .skill .division {
-      margin-left: 5rem;
+      margin-left: 1.5rem;
       margin-top: 0.1px;
     }
     
@@ -2264,7 +2264,7 @@ body{
     .titulo-presentacion{
       margin-top: 5rem;
       font-size: 4rem;
-      margin-left: 5rem;
+      margin-left: 1.5rem;
     }
 
     .descripcion-skill{
@@ -3709,7 +3709,7 @@ body{
      }
  
      .skill .division {
-       margin-left: 1rem;
+       margin-left: 0rem;
        margin-top: 0.1px;
      }
      
@@ -3725,13 +3725,13 @@ body{
      }
  
      .skill{
-       padding: 10rem 0rem 2rem 2rem;
+       padding: 10rem 0rem 2rem 0rem;
      }
  
      .titulo-presentacion{
        margin-top: 0rem;
        font-size: 4rem;
-       margin-left: 1rem;
+       margin-left: 0rem;
      }
 
      .skilss{
@@ -3901,7 +3901,7 @@ body{
      }
  
      .skill .p-contenido {
-       margin-top: 2rem;
+       margin-top: 0rem;
        font-size: 1.2rem;
      }
  
@@ -3912,7 +3912,7 @@ body{
      .titulo-presentacion{
        margin-top: 0rem;
        font-size: 4rem;
-       margin-left: 1rem;
+       margin-left: 0rem;
      }
 
      .skilss{
@@ -4113,7 +4113,7 @@ body{
 
     .skilss-bar{
       display: grid;
-      grid-template-columns: 50% 50%;
+      grid-template-columns: 100%;
       place-items: center;
       color: white;
       margin-left: 0x;
@@ -4423,5 +4423,11 @@ body{
     }
   }
 }
-
 /*FINAL-SKILL'S*/
+
+/*PORTAFOLIO*/
+@media screen {
+  @media screen {
+  }
+}
+/*FINAL-PORTAFOLIO*/
