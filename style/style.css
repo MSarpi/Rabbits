@@ -577,29 +577,10 @@ body{
         }
         
         .contenido{
-          height: 79vh;
+          height: 82vh;
         }
       /*FIN MOBAL-QUIEN SOY*/
     /*QUIEN SOY-FINAL*/
-}
-
-@media (max-width:1280px){
-        /*MOBAL-QUIEN SOY*/
-        .modal{
-          position: fixed;
-          top: 1%;
-          left: 10%;
-          background: rgba(0,0,0,0.5);
-          transition: all 500ms ease;
-          opacity: 0;
-          visibility: hidden;
-          border-radius: 10px;
-        }
-        
-        .contenido{
-          height: 86vh;
-        }
-      /*FIN MOBAL-QUIEN SOY*/
 }
 
 @media (max-width:1024px){
@@ -905,6 +886,67 @@ body{
 
   label{
     display: none;
+  }
+}
+
+@media (max-width:667px) {
+  .presentacion {
+    color: #f3f3f3;
+    margin-top: 7rem;
+    margin-left: 2rem;
+    font-size: 25px;
+  }
+  
+  .img-portada{
+    width: 53%;
+    margin-top: 1rem;
+    margin-left: 10rem;
+  }
+
+  .subtitulo {
+    font-size: 20px;
+    color: #bbbbbb;
+    padding-bottom: 50px;
+  }
+}
+
+@media (max-width:568px) {
+  .portada-grid{
+    display: grid;
+    grid-template-columns: repeat(1,1fr);
+}
+  .img-portada{
+  display: none;
+  }
+  .presentacion {
+    color: #f3f3f3;
+    margin-top: 7rem;
+    margin-left: 2rem;
+    font-size: 30px;
+  }
+  
+  .img-portada{
+    width: 53%;
+    margin-top: 1rem;
+    margin-left: 10rem;
+  }
+
+  .subtitulo {
+    font-size: 25px;
+    color: #bbbbbb;
+    padding-bottom: 25px;
+  }
+
+  .quien-soy-interior img{
+    margin: -13rem 0 -10rem 25rem;
+    width: 50%;
+  }
+}
+
+@media (max-width:568px) {
+  .quien-soy-interior img{
+    margin: -13rem 0 -10rem 22rem;
+    width: 50%;
   }
 }
 
