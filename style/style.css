@@ -684,6 +684,117 @@ body{
       }
 }
 
+@media (max-width:1018px){
+  
+  #particles-js{
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 80vh;
+    width: 100%;
+    z-index: -1;
+    background-color: black;
+    clip-path: polygon(0% 0%, 100% 0, 100% 90%, 50% 96%, 0 90%);
+  }
+
+.presentacion {
+    color: #f3f3f3;
+    margin-top: 20rem;
+    margin-left: 5rem;
+    font-size: 40px;
+  }
+
+  .img-portada{
+    width: 50%;
+    margin-top: 10rem;
+    margin-left: 15rem;
+}
+/*FIN TITULO HOLA SOY*/
+
+/*QUIEN SOY*/
+.quien-soy-interior{
+  margin: 7rem 1rem 0 1rem;
+  border: 1px solid black;
+}
+
+.quien-soy{
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.quien-soy-interior img{
+  margin: -13rem 0 -10rem 1rem;
+  width: 100%;
+}
+
+.sobre-mi-info h2{
+  color: rgb(233, 233, 233);
+  font-size: 3rem;
+  margin: -10rem 0 0 0;
+}
+
+.sobre-mi-info {
+  color: rgb(196, 196, 196);
+  padding: 1rem;
+  margin: 10rem 0 2rem 0;
+}
+
+.division{ 
+  margin: 0 0 5rem 0;
+}
+
+.p-size-quien-soy{
+  font-size: 18px;
+}
+
+label{
+  display: none;
+}
+/*MOBAL-QUIEN SOY*/
+.modal{
+    position: fixed;
+    top: 0;
+    left: 1%;
+    background: rgba(0,0,0,0.5);
+    transition: all 500ms ease;
+    opacity: 0;
+    visibility: hidden;
+    border-radius: 10px;
+  }
+  
+  #btn-modal:checked ~ .modal{
+    opacity: 1;
+    visibility: visible;
+  } 
+  
+  .contenedor{
+    width: 100rem;
+    height: 70rem;
+    margin: auto;
+    background: #fff;
+    box-shadow: 1px 110px 25px rgba(0,0,0,0.6);
+    transition: all 500ms ease;
+    position: relative;
+    transform: translateY(-30%);
+    border-radius: 10px;
+  }
+
+  .contenido{
+    width: 100%;
+    height: 86vh;
+    padding: 2.2rem;
+    background-color: rgb(38, 38, 38);
+    border-radius: 0 0 1rem 1rem;
+  }
+
+  .p-contenido{
+    padding: 2rem 5rem 0rem 5rem;
+    margin-bottom: 7px;
+    font-size: 15px;
+  }
+
+}
+
 @media (max-width:812px) {
   
   .presentacion {
