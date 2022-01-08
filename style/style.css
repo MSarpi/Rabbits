@@ -604,8 +604,110 @@ body{
         background-color: rgb(38, 38, 38);
         border-radius: 0 0 1rem 1rem;
       }
-    /*MOBAL-QUIEN SOY-FIN*/
+      /*MOBAL-QUIEN SOY-FIN*/
     /*QUIEN SOY-FIN*/
+
+    /*SKILL'S*/
+      .p-contenido-skill{
+        padding: 0 0 0 3rem;
+        font-size: 2rem;
+        color: white;
+      }
+
+      .img-skill{
+        width: 100%;
+        margin: 25rem 0 0 0;
+      }
+
+      .skill .division {
+        margin-left: 3rem;
+        margin-top: 0;
+      }
+
+      .grid-skill{
+        display: grid;
+        grid-template-columns: 50% 50%;
+      }
+
+      .skill .p-contenido-skill {
+        margin-top: 0;
+      }
+
+      .skill{
+        padding: 0;
+      }
+
+      .titulo-presentacion{
+        margin-top: 30rem;
+        font-size: 5rem;
+        margin-left: 3rem;
+        color: white;
+      }
+
+      .descripcion-skill{
+        color: white;
+        font-size: 10rem;
+      }
+
+      .skilss{
+        font-size: 20px;
+        color: rgb(253, 253, 253);
+      }
+
+      .bar{
+        padding: 4.5rem;
+        
+      }
+
+      .img-html{
+        height: 100px;
+
+      }
+
+      .skilss-bar{
+        display: grid;
+        grid-template-columns: 25% 25% 25% 25%;
+        place-items: center;
+        padding: 0px;
+        color: white;
+        margin-left: 0x;
+        padding-left: 0px;
+        padding: 0rem 3rem 3rem 0rem;
+      }
+
+      .skilss-bar .bar:first-child{
+        margin-top: 0;
+      }
+
+      .skilss-bar .bar .info span{
+        font-size: 17px;
+        font-weight: 500;
+      }
+
+      .skilss-bar .bar .progress-line{
+        margin-top: 15px;
+        position: relative;
+        height: 10px;
+        width: 100%;
+        background: #f0f0f0;
+        border-radius: 10px;
+        transform: scaleX(0);
+        transform-origin: left;
+        box-shadow: inset 0px 1px 1px rgba(0, 0, 0, 0.05),
+                          0px 1px rgba(255, 255, 255, 0.8);
+        animation: animate 1s cubic-bezier(1,0,0.5,1) forwards;
+      }
+      .bar .progress-line span{
+        height: 110%;
+        width: 80%;
+        background: #6665ee;
+        position: absolute;
+        border-radius: 10px;
+        transform: scaleX(0);
+        transform-origin: left;
+        animation: animate 1s cubic-bezier(1,0,0.5,1) forwards;
+      }
+  /*SKILL'S-FIN*/
 
 }
 
@@ -708,6 +810,109 @@ body{
       background-color: rgb(38, 38, 38);
       border-radius: 0 0 1rem 1rem;
     }
+
+       /*SKILL'S*/
+       .p-contenido-skill{
+        padding: 0 0 0 3rem;
+        font-size: 2rem;
+        color: white;
+      }
+
+      .img-skill{
+        width: 100%;
+        margin: 25rem 0 0 0;
+      }
+
+      .skill .division {
+        margin-left: 3rem;
+        margin-top: 0;
+      }
+
+      .grid-skill{
+        display: grid;
+        grid-template-columns: 50% 50%;
+      }
+
+      .skill .p-contenido-skill {
+        margin-top: 0;
+      }
+
+      .skill{
+        padding: 0;
+      }
+
+      .titulo-presentacion{
+        margin-top: 30rem;
+        font-size: 5rem;
+        margin-left: 3rem;
+        color: white;
+      }
+
+      .descripcion-skill{
+        color: white;
+        font-size: 10rem;
+      }
+
+      .skilss{
+        font-size: 20px;
+        color: rgb(253, 253, 253);
+      }
+
+      .bar{
+        padding: 4.5rem;
+        
+      }
+
+      .img-html{
+        height: 100px;
+
+      }
+
+      .skilss-bar{
+        display: grid;
+        grid-template-columns: 25% 25% 25% 25%;
+        place-items: center;
+        padding: 0px;
+        color: white;
+        margin-left: 0x;
+        padding-left: 0px;
+        padding: 0rem 3rem 3rem 0rem;
+      }
+
+      .skilss-bar .bar:first-child{
+        margin-top: 0;
+      }
+
+      .skilss-bar .bar .info span{
+        font-size: 17px;
+        font-weight: 500;
+      }
+
+      .skilss-bar .bar .progress-line{
+        margin-top: 15px;
+        position: relative;
+        height: 10px;
+        width: 100%;
+        background: #f0f0f0;
+        border-radius: 10px;
+        transform: scaleX(0);
+        transform-origin: left;
+        box-shadow: inset 0px 1px 1px rgba(0, 0, 0, 0.05),
+                          0px 1px rgba(255, 255, 255, 0.8);
+        animation: animate 1s cubic-bezier(1,0,0.5,1) forwards;
+      }
+      .bar .progress-line span{
+        height: 110%;
+        width: 80%;
+        background: #6665ee;
+        position: absolute;
+        border-radius: 10px;
+        transform: scaleX(0);
+        transform-origin: left;
+        animation: animate 1s cubic-bezier(1,0,0.5,1) forwards;
+      }
+      /*SKILL'S -FIN*/
+
 }
 
 @media (max-width:1280px){
