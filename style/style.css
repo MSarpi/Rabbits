@@ -747,9 +747,6 @@ body{
   font-size: 18px;
 }
 
-label{
-  display: none;
-}
 /*MOBAL-QUIEN SOY*/
 .modal{
     position: fixed;
