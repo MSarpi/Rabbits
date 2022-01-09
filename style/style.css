@@ -467,7 +467,7 @@ body{
 }
 
 .progress-line.ps span{
-  width: 50%;
+  width: 70%;
 }
 
 .progress-line.ji span{
@@ -516,7 +516,7 @@ body{
 }
 
 .progress-line.wp span::after{
-  content: "50%";
+  content: "70%";
 }
 
 .progress-line.ps span::after{
@@ -838,10 +838,7 @@ body{
 
       .img-html{
         height: 100px;
-
       }
-
-
       /*SKILL'S -FIN*/
 
 }
@@ -1174,41 +1171,42 @@ body{
   }
   /*QUIEN SOY - FINAL*/
 
-  /*SKILL*/
-  /*SKILL'S*/
+      /*SKILL*/
 
-.grid-skill{
-  display: grid;
-  grid-template-columns: repeat(1,1fr);
-  /*background-color: rgb(38, 38, 38);*/
-}
+    .grid-skill{
+      display: grid;
+      grid-template-columns: repeat(1,1fr);
+      /*background-color: rgb(38, 38, 38);*/
+    }
 
-.skill .p-contenido-skill {
-  margin-top: 1rem;
-}
+    .skill .p-contenido-skill {
+      margin-top: 1rem;
+    }
 
-.bar{
-  padding: 4.5rem;
-  
-}
+    .bar{
+      padding: 4.5rem;
+      
+    }
 
-.img-html{
-  height: 100px;
+    .img-html{
+      height: 100px;
 
-}
+    }
 
-.skilss-bar{
-  display: grid;
-  grid-template-columns: repeat(4, 1fr);
-  place-items: center;
-  padding: 0px;
-  color: white;
-  margin-left: 0x;
-  padding-left: 0px;
-  padding: 0 3rem 3rem 0;
-}
-
-  /*SKILL-FINAL*/
+    .skilss-bar{
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      place-items: center;
+      padding: 0px;
+      color: white;
+      margin-left: 0x;
+      padding-left: 0px;
+      padding: 0 3rem 3rem 0;
+    }
+      .img-skill{
+        display: none;
+      }
+      /*SKILL-FINAL*/
 }
 
 @media (max-width:768px){
@@ -1350,6 +1348,8 @@ body{
             transition: 0.6s;
             color: #ffffff;
           }
+          /*FINAL- QUIEN SOY*/
+          
 }
 
 @media (max-width:736px){
@@ -1373,6 +1373,29 @@ body{
   label{
     display: none;
   }
+
+  /*SKILL*/
+  .bar{
+    padding: 4rem;
+    
+  }
+
+  .img-html{
+    height: 100px;
+
+  }
+
+  .skilss-bar{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    place-items: center;
+    padding: 0px;
+    color: white;
+    margin-left: 0x;
+    padding-left: 0px;
+    padding: 0 3rem 3rem 0;
+  }
+/*SKILL - FINAL*/
 }
 
 @media (max-width:667px) {
@@ -1394,6 +1417,29 @@ body{
     color: #bbbbbb;
     padding-bottom: 50px;
   }
+
+  /*SKILL*/
+  .bar{
+    padding: 3.5rem;
+    
+  }
+
+  .img-html{
+    height: 100px;
+
+  }
+
+  .skilss-bar{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    place-items: center;
+    padding: 0px;
+    color: white;
+    margin-left: 0x;
+    padding-left: 0px;
+    padding: 0 3rem 3rem 0;
+  }
+/*SKILL - FINAL*/
 }
 
 @media (max-width:568px) {
@@ -1510,6 +1556,28 @@ body{
     label{
       display: none;
     }
+    /*SKILL*/
+    .bar{
+      padding: 4rem;
+      
+    }
+
+    .img-html{
+      height: 100px;
+
+    }
+
+    .skilss-bar{
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      place-items: center;
+      padding: 0px;
+      color: white;
+      margin-left: 0x;
+      padding-left: 0px;
+      padding: 0 3rem 3rem 0;
+    }
+/*SKILL - FINAL*/
 }
 
 @media (max-width:375px){
@@ -1546,6 +1614,29 @@ body{
         display: none;
     }
     /*FIN TITULO HOLA SOY*/
+
+    /*SKILL*/
+    .bar{
+      padding: 3rem;
+      
+    }
+
+    .img-html{
+      height: 100px;
+
+    }
+
+    .skilss-bar{
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      place-items: center;
+      padding: 0px;
+      color: white;
+      margin-left: 0x;
+      padding-left: 0px;
+      padding: 0 3rem 3rem 0;
+    }
+/*SKILL - FINAL*/
 } 
 
 @media (max-width:360px){
@@ -1582,7 +1673,11 @@ body{
         display: none;
     }
     /*FIN TITULO HOLA SOY*/
-}
+    .p-contenido-skill{
+      padding: 0 0 3rem 1.5rem;
+      font-size: 1.5rem;
+      color: white;
+    }
 
 @media (max-width:320px){
     /*TITULO HOLA SOY*/
@@ -1654,6 +1749,7 @@ body{
         display: none;
     }
     /*FIN TITULO HOLA SOY*/
+}
 }
 }
 /*FIN RESPONSIVE*/
