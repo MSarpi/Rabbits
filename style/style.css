@@ -1679,77 +1679,50 @@ body{
       color: white;
     }
 
+
+}
 @media (max-width:320px){
-    /*TITULO HOLA SOY*/
-    #particles-js{
-        position: absolute;
-        top: 0;
-        left: 0;
-        height: 70vh;
-        width: 100%;
-        z-index: -1;
-        background-color: black;
-        clip-path: polygon(0% 0%, 100% 0, 100% 90%, 50% 96%, 0 90%);
-      }
-    .portada-grid{
-        display: grid;
-        grid-template-columns: 100%;
+  /*TITULO HOLA SOY*/
+  #particles-js{
+      position: absolute;
+      top: 0;
+      left: 0;
+      height: 70vh;
+      width: 100%;
+      z-index: -1;
+      background-color: black;
+      clip-path: polygon(0% 0%, 100% 0, 100% 90%, 50% 96%, 0 90%);
+    }
+  .portada-grid{
+      display: grid;
+      grid-template-columns: 100%;
+  }
+
+  .presentacion {
+      color: #f3f3f3;
+      margin-top: 7rem;
+      margin-left: 1rem;
+      font-size: 25px;
     }
 
-    .presentacion {
-        color: #f3f3f3;
-        margin-top: 7rem;
-        margin-left: 1rem;
-        font-size: 25px;
-      }
-
-    .subtitulo {
-        font-size: 18px;
-        color: #bbbbbb;
-        padding-bottom: 50px;
-      }
-
-    .img-portada{
-        display: none;
+  .subtitulo {
+      font-size: 18px;
+      color: #bbbbbb;
+      padding-bottom: 50px;
     }
-    /*FIN TITULO HOLA SOY*/
+
+  .img-portada{
+      display: none;
+  }
+  /*FIN TITULO HOLA SOY*/
+
+      /*FIN TITULO HOLA SOY*/
+      .p-contenido-skill{
+        padding: 0 1.5rem 3rem 1.5rem;
+        font-size: 1.5rem;
+        color: white;
+      }
 }
 
-@media (max-width:320px){
-    /*TITULO HOLA SOY*/
-    #particles-js{
-        position: absolute;
-        top: 0;
-        left: 0;
-        height: 83vh;
-        width: 100%;
-        z-index: -1;
-        background-color: black;
-        clip-path: polygon(0% 0%, 100% 0, 100% 90%, 50% 96%, 0 90%);
-      }
-    .portada-grid{
-        display: grid;
-        grid-template-columns: 100%;
-    }
-
-    .presentacion {
-        color: #f3f3f3;
-        margin-top: 7rem;
-        margin-left: 1rem;
-        font-size: 25px;
-      }
-
-    .subtitulo {
-        font-size: 18px;
-        color: #bbbbbb;
-        padding-bottom: 50px;
-      }
-
-    .img-portada{
-        display: none;
-    }
-    /*FIN TITULO HOLA SOY*/
-}
-}
 }
 /*FIN RESPONSIVE*/
