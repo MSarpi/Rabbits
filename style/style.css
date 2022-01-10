@@ -344,6 +344,197 @@ body{
     color: var(--gmail);
   }
 /*FIN MOBAL-QUIEN SOY*/
+
+/*SKILL'S*/
+.p-contenido-skill{
+  padding: 0 0 3rem 1.5rem;
+  font-size: 2rem;
+  color: white;
+}
+
+.img-skill{
+  width: 100%;
+  margin: 20rem 0 0 10rem;
+}
+
+.skill .division {
+  margin-left: 1.5rem;
+  margin-top: 0.1px;
+}
+
+.grid-skill{
+  display: grid;
+  grid-template-columns: 50% 50%;
+  /*background-color: rgb(38, 38, 38);*/
+}
+
+.skill .p-contenido-skill {
+  margin-top: 1rem;
+}
+
+.skill{
+  padding: 15rem;
+}
+
+.titulo-presentacion{
+  margin-top: 30rem;
+  font-size: 5rem;
+  margin-left: 1.5rem;
+  color: white;
+}
+
+.descripcion-skill{
+  color: white;
+  font-size: 10rem;
+  margin-left: 0px;
+}
+
+.skilss{
+  font-size: 20px;
+  color: rgb(253, 253, 253);
+}
+
+.bar{
+  padding: 4.5rem;
+  
+}
+
+.img-html{
+  height: 100px;
+
+}
+
+.skilss-bar{
+  display: grid;
+  grid-template-columns: 25% 25% 25% 25%;
+  place-items: center;
+  padding: 0px;
+  color: white;
+  margin-left: 0x;
+  padding-left: 0px;
+  padding: 0rem 3rem 3rem 0rem;
+}
+
+.skilss-bar .bar:first-child{
+  margin-top: 0;
+}
+
+.skilss-bar .bar .info span{
+  font-size: 17px;
+  font-weight: 500;
+}
+
+.skilss-bar .bar .progress-line{
+  margin-top: 15px;
+  position: relative;
+  height: 10px;
+  width: 100%;
+  background: #f0f0f0;
+  border-radius: 10px;
+  transform: scaleX(0);
+  transform-origin: left;
+  box-shadow: inset 0px 1px 1px rgba(0, 0, 0, 0.05),
+                    0px 1px rgba(255, 255, 255, 0.8);
+  animation: animate 1s cubic-bezier(1,0,0.5,1) forwards;
+}
+.bar .progress-line span{
+  height: 110%;
+  width: 80%;
+  background: #6665ee;
+  position: absolute;
+  border-radius: 10px;
+  transform: scaleX(0);
+  transform-origin: left;
+  animation: animate 1s cubic-bezier(1,0,0.5,1) forwards;
+}
+
+@keyframes animate {
+  100%{
+      transform: scaleX(1);
+  }
+}
+
+.progress-line.html span{
+  width: 80%;
+}
+
+.progress-line.css span{
+  width: 50%;
+}
+
+.progress-line.wp span{
+  width: 70%;
+}
+
+.progress-line.ps span{
+  width: 70%;
+}
+
+.progress-line.ji span{
+  width: 90%;
+}
+
+.progress-line.vc span{
+  width: 50%;
+}
+
+.progress-line.sql span{
+  width: 30%;
+}
+
+.bar .progress-line span::before{
+  position: absolute;
+  content: "";
+  right: 0;
+  top: -10px;
+  height: 0;
+  width: 0;
+  border: 7px solid transparent;
+  border-bottom-width: 0px;
+  border-right-width: 0px;
+  border-top-color: #000;
+}
+
+.bar .progress-line span::after{
+  position: absolute;
+  right: 0;
+  top: -28px;
+  color: #fff;
+  font-size: 12px;
+  font-weight: 500;
+  background: #000;
+  padding: 1px 8px;
+  border-radius: 3px;
+}
+
+.progress-line.html span::after{
+  content: "80%";
+}
+
+.progress-line.css span::after{
+  content: "50%";
+}
+
+.progress-line.wp span::after{
+  content: "70%";
+}
+
+.progress-line.ps span::after{
+  content: "70%";
+}
+
+.progress-line.ji span::after{
+  content: "90%";
+}
+
+.progress-line.vc span::after{
+  content: "50%";
+}
+
+.progress-line.sql span::after{
+  content: "30%";
+}
+/*FIN SKILL'S*/ 
 }
 /*ORIGINAL*/
 
@@ -413,8 +604,83 @@ body{
         background-color: rgb(38, 38, 38);
         border-radius: 0 0 1rem 1rem;
       }
-    /*MOBAL-QUIEN SOY-FIN*/
+      /*MOBAL-QUIEN SOY-FIN*/
     /*QUIEN SOY-FIN*/
+
+    /*SKILL'S*/
+      .p-contenido-skill{
+        padding: 0 0 0 3rem;
+        font-size: 2rem;
+        color: white;
+      }
+
+      .img-skill{
+        width: 100%;
+        margin: 25rem 0 0 0;
+      }
+
+      .skill .division {
+        margin-left: 3rem;
+        margin-top: 0;
+      }
+
+      .grid-skill{
+        display: grid;
+        grid-template-columns: 50% 50%;
+      }
+
+      .skill .p-contenido-skill {
+        margin-top: 0;
+      }
+
+      .skill{
+        padding: 0;
+      }
+
+      .titulo-presentacion{
+        margin-top: 30rem;
+        font-size: 5rem;
+        margin-left: 3rem;
+        color: white;
+      }
+
+      .descripcion-skill{
+        color: white;
+        font-size: 10rem;
+      }
+
+      .skilss{
+        font-size: 20px;
+        color: rgb(253, 253, 253);
+      }
+
+      .bar{
+        padding: 4.5rem;
+        
+      }
+
+      .img-html{
+        height: 100px;
+
+      }
+
+      .skilss-bar{
+        display: grid;
+        grid-template-columns: 25% 25% 25% 25%;
+        place-items: center;
+        padding: 0px;
+        color: white;
+        margin-left: 0x;
+        padding-left: 0px;
+        padding: 0rem 3rem 3rem 0rem;
+      }
+
+      .skilss-bar .bar:first-child{
+        margin-top: 0;
+      }
+
+      
+  /*SKILL'S-FIN*/
 
 }
 
@@ -517,6 +783,64 @@ body{
       background-color: rgb(38, 38, 38);
       border-radius: 0 0 1rem 1rem;
     }
+
+       /*SKILL'S*/
+       .p-contenido-skill{
+        padding: 0 0 0 3rem;
+        font-size: 2rem;
+        color: white;
+      }
+
+      .img-skill{
+        width: 100%;
+        margin: 25rem 0 0 0;
+      }
+
+      .skill .division {
+        margin-left: 3rem;
+        margin-top: 0;
+      }
+
+      .grid-skill{
+        display: grid;
+        grid-template-columns: 50% 50%;
+      }
+
+      .skill .p-contenido-skill {
+        margin-top: 0;
+      }
+
+      .skill{
+        padding: 0;
+      }
+
+      .titulo-presentacion{
+        margin-top: 30rem;
+        font-size: 5rem;
+        margin-left: 3rem;
+        color: white;
+      }
+
+      .descripcion-skill{
+        color: white;
+        font-size: 10rem;
+      }
+
+      .skilss{
+        font-size: 20px;
+        color: rgb(253, 253, 253);
+      }
+
+      .bar{
+        padding: 4.5rem;
+        
+      }
+
+      .img-html{
+        height: 100px;
+      }
+      /*SKILL'S -FIN*/
+
 }
 
 @media (max-width:1280px){
@@ -682,10 +1006,129 @@ body{
         background-color: rgb(38, 38, 38);
         border-radius: 0 0 1rem 1rem;
       }
+    /*MOBAL- QUIEN SOY - FINAL
+    /QUIEN SOY -= FINAL*/
+
+    /*SKILL*/
+    .img-skill{
+      width: 90%;
+      margin: 40rem 0 0 3rem;
+    }
+    /*SKILL - FINAL*/
+}
+
+@media (max-width:1018px){
+  
+  #particles-js{
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 80vh;
+    width: 100%;
+    z-index: -1;
+    background-color: black;
+    clip-path: polygon(0% 0%, 100% 0, 100% 90%, 50% 96%, 0 90%);
+  }
+
+.presentacion {
+    color: #f3f3f3;
+    margin-top: 20rem;
+    margin-left: 5rem;
+    font-size: 40px;
+  }
+
+  .img-portada{
+    width: 50%;
+    margin-top: 10rem;
+    margin-left: 15rem;
+}
+/*FIN TITULO HOLA SOY*/
+
+/*QUIEN SOY*/
+.quien-soy-interior{
+  margin: 7rem 1rem 0 1rem;
+  border: 1px solid black;
+}
+
+.quien-soy{
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.quien-soy-interior img{
+  margin: -13rem 0 -10rem 1rem;
+  width: 100%;
+}
+
+.sobre-mi-info h2{
+  color: rgb(233, 233, 233);
+  font-size: 3rem;
+  margin: -10rem 0 0 0;
+}
+
+.sobre-mi-info {
+  color: rgb(196, 196, 196);
+  padding: 1rem;
+  margin: 10rem 0 2rem 0;
+}
+
+.division{ 
+  margin: 0 0 5rem 0;
+}
+
+.p-size-quien-soy{
+  font-size: 18px;
+}
+
+
+
+/*MOBAL-QUIEN SOY*/
+.modal{
+    position: fixed;
+    top: 0;
+    left: 1%;
+    background: rgba(0,0,0,0.5);
+    transition: all 500ms ease;
+    opacity: 0;
+    visibility: hidden;
+    border-radius: 10px;
+  }
+  
+  #btn-modal:checked ~ .modal{
+    opacity: 1;
+    visibility: visible;
+  } 
+  
+  .contenedor{
+    width: 100rem;
+    height: 70rem;
+    margin: auto;
+    background: #fff;
+    box-shadow: 1px 110px 25px rgba(0,0,0,0.6);
+    transition: all 500ms ease;
+    position: relative;
+    transform: translateY(-30%);
+    border-radius: 10px;
+  }
+
+  .contenido{
+    width: 100%;
+    height: 86vh;
+    padding: 2.2rem;
+    background-color: rgb(38, 38, 38);
+    border-radius: 0 0 1rem 1rem;
+  }
+
+  .p-contenido{
+    padding: 2rem 5rem 0rem 5rem;
+    margin-bottom: 7px;
+    font-size: 15px;
+  }
+
 }
 
 @media (max-width:812px) {
-  
+  /*TITULO*/
   .presentacion {
     color: #f3f3f3;
     margin-top: 7rem;
@@ -705,6 +1148,9 @@ body{
     padding-bottom: 50px;
   }
 
+  /*TITULO -FINAL*/
+
+  /*QUIEN SOY*/
   .quien-soy-interior{
     margin: 25rem 1rem 0 1rem;
   }
@@ -723,6 +1169,44 @@ body{
   label{
     display: none;
   }
+  /*QUIEN SOY - FINAL*/
+
+      /*SKILL*/
+
+    .grid-skill{
+      display: grid;
+      grid-template-columns: repeat(1,1fr);
+      /*background-color: rgb(38, 38, 38);*/
+    }
+
+    .skill .p-contenido-skill {
+      margin-top: 1rem;
+    }
+
+    .bar{
+      padding: 4.5rem;
+      
+    }
+
+    .img-html{
+      height: 100px;
+
+    }
+
+    .skilss-bar{
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      place-items: center;
+      padding: 0px;
+      color: white;
+      margin-left: 0x;
+      padding-left: 0px;
+      padding: 0 3rem 3rem 0;
+    }
+      .img-skill{
+        display: none;
+      }
+      /*SKILL-FINAL*/
 }
 
 @media (max-width:768px){
@@ -864,6 +1348,8 @@ body{
             transition: 0.6s;
             color: #ffffff;
           }
+          /*FINAL- QUIEN SOY*/
+          
 }
 
 @media (max-width:736px){
@@ -887,6 +1373,29 @@ body{
   label{
     display: none;
   }
+
+  /*SKILL*/
+  .bar{
+    padding: 4rem;
+    
+  }
+
+  .img-html{
+    height: 100px;
+
+  }
+
+  .skilss-bar{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    place-items: center;
+    padding: 0px;
+    color: white;
+    margin-left: 0x;
+    padding-left: 0px;
+    padding: 0 3rem 3rem 0;
+  }
+/*SKILL - FINAL*/
 }
 
 @media (max-width:667px) {
@@ -908,6 +1417,29 @@ body{
     color: #bbbbbb;
     padding-bottom: 50px;
   }
+
+  /*SKILL*/
+  .bar{
+    padding: 3.5rem;
+    
+  }
+
+  .img-html{
+    height: 100px;
+
+  }
+
+  .skilss-bar{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    place-items: center;
+    padding: 0px;
+    color: white;
+    margin-left: 0x;
+    padding-left: 0px;
+    padding: 0 3rem 3rem 0;
+  }
+/*SKILL - FINAL*/
 }
 
 @media (max-width:568px) {
@@ -1024,6 +1556,28 @@ body{
     label{
       display: none;
     }
+    /*SKILL*/
+    .bar{
+      padding: 4rem;
+      
+    }
+
+    .img-html{
+      height: 100px;
+
+    }
+
+    .skilss-bar{
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      place-items: center;
+      padding: 0px;
+      color: white;
+      margin-left: 0x;
+      padding-left: 0px;
+      padding: 0 3rem 3rem 0;
+    }
+/*SKILL - FINAL*/
 }
 
 @media (max-width:375px){
@@ -1060,6 +1614,29 @@ body{
         display: none;
     }
     /*FIN TITULO HOLA SOY*/
+
+    /*SKILL*/
+    .bar{
+      padding: 3rem;
+      
+    }
+
+    .img-html{
+      height: 100px;
+
+    }
+
+    .skilss-bar{
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      place-items: center;
+      padding: 0px;
+      color: white;
+      margin-left: 0x;
+      padding-left: 0px;
+      padding: 0 3rem 3rem 0;
+    }
+/*SKILL - FINAL*/
 } 
 
 @media (max-width:360px){
@@ -1096,78 +1673,55 @@ body{
         display: none;
     }
     /*FIN TITULO HOLA SOY*/
+    .p-contenido-skill{
+      padding: 0 0 3rem 1.5rem;
+      font-size: 1.5rem;
+      color: white;
+    }
+
+
 }
-
 @media (max-width:320px){
-    /*TITULO HOLA SOY*/
-    #particles-js{
-        position: absolute;
-        top: 0;
-        left: 0;
-        height: 70vh;
-        width: 100%;
-        z-index: -1;
-        background-color: black;
-        clip-path: polygon(0% 0%, 100% 0, 100% 90%, 50% 96%, 0 90%);
-      }
-    .portada-grid{
-        display: grid;
-        grid-template-columns: 100%;
+  /*TITULO HOLA SOY*/
+  #particles-js{
+      position: absolute;
+      top: 0;
+      left: 0;
+      height: 70vh;
+      width: 100%;
+      z-index: -1;
+      background-color: black;
+      clip-path: polygon(0% 0%, 100% 0, 100% 90%, 50% 96%, 0 90%);
+    }
+  .portada-grid{
+      display: grid;
+      grid-template-columns: 100%;
+  }
+
+  .presentacion {
+      color: #f3f3f3;
+      margin-top: 7rem;
+      margin-left: 1rem;
+      font-size: 25px;
     }
 
-    .presentacion {
-        color: #f3f3f3;
-        margin-top: 7rem;
-        margin-left: 1rem;
-        font-size: 25px;
-      }
-
-    .subtitulo {
-        font-size: 18px;
-        color: #bbbbbb;
-        padding-bottom: 50px;
-      }
-
-    .img-portada{
-        display: none;
-    }
-    /*FIN TITULO HOLA SOY*/
-}
-
-@media (max-width:320px){
-    /*TITULO HOLA SOY*/
-    #particles-js{
-        position: absolute;
-        top: 0;
-        left: 0;
-        height: 83vh;
-        width: 100%;
-        z-index: -1;
-        background-color: black;
-        clip-path: polygon(0% 0%, 100% 0, 100% 90%, 50% 96%, 0 90%);
-      }
-    .portada-grid{
-        display: grid;
-        grid-template-columns: 100%;
+  .subtitulo {
+      font-size: 18px;
+      color: #bbbbbb;
+      padding-bottom: 50px;
     }
 
-    .presentacion {
-        color: #f3f3f3;
-        margin-top: 7rem;
-        margin-left: 1rem;
-        font-size: 25px;
-      }
+  .img-portada{
+      display: none;
+  }
+  /*FIN TITULO HOLA SOY*/
 
-    .subtitulo {
-        font-size: 18px;
-        color: #bbbbbb;
-        padding-bottom: 50px;
+      /*FIN TITULO HOLA SOY*/
+      .p-contenido-skill{
+        padding: 0 1.5rem 3rem 1.5rem;
+        font-size: 1.5rem;
+        color: white;
       }
-
-    .img-portada{
-        display: none;
-    }
-    /*FIN TITULO HOLA SOY*/
 }
 }
 /*FIN RESPONSIVE*/
