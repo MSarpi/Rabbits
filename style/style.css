@@ -353,8 +353,8 @@ body{
 }
 
 .img-skill{
-  width: 100%;
-  margin: 20rem 0 0 10rem;
+  width: 85%;
+  margin: 25rem 0 0 10rem;
 }
 
 .skill .division {
@@ -373,7 +373,7 @@ body{
 }
 
 .skill{
-  padding: 15rem;
+  padding: 3rem;
 }
 
 .titulo-presentacion{
@@ -535,6 +535,24 @@ body{
   content: "30%";
 }
 /*FIN SKILL'S*/ 
+
+/*PORTAFOLIO*/
+.portafolio-backgraund{
+  padding: 20rem 4rem 0 4rem;
+}
+.portafolio h2{
+  color: #fff;
+  font-size: 5rem;
+}
+.portafolio .division{ 
+  margin: 0 0 4rem 0;
+  height: 10px;
+  border-radius: 10px;
+  width: 10rem;
+  background-color: #ae6446;
+}
+
+/*PORTAFOLIO FIN*/
 }
 /*ORIGINAL*/
 
