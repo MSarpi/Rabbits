@@ -557,6 +557,7 @@ body{
 .container{
   display: flex;
   justify-content: center;
+  flex-wrap: wrap;
 }
 
 .card{
@@ -567,6 +568,11 @@ body{
   border-radius: 1rem;
 }
 
+.card:hover{
+  transform: scale(1.03);
+  transition: all 1s ease;
+}
+
 .card-img{
   height: 25rem;
   margin-bottom: 2rem;
@@ -574,11 +580,11 @@ body{
 }
 
 .card-1{
-  background-image: url(../assest/img/captura-tloz.PNG);
+  background-image: url(../assest/gif/tloz.gif);
 }
 
 .card-2{
-  background-image: url(../assest/img/captura-SI.PNG);
+  background-image: url(../assest/gif/si.gif)
 }
 
 .card-3{
@@ -593,7 +599,7 @@ body{
 
 .card-texto {
   color: rgb(189, 189, 189);
-  font-size: 2rem;
+  font-size: 1.8rem;
   padding: 3rem;
 }
 
@@ -601,6 +607,12 @@ body{
   color: rgb(189, 189, 189);
   font-size: 4rem;
   margin: 0 0 0 13rem;
+  cursor: pointer;
+}
+
+.card i:hover{
+  color: #ae6446;
+  transition: .4s;
 }
 /*PORTAFOLIO FIN*/
 }
