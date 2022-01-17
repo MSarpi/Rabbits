@@ -540,10 +540,12 @@ body{
 .portafolio-backgraund{
   padding: 20rem 4rem 0 4rem;
 }
+
 .portafolio-backgraund h2{
   color: #fff;
   font-size: 5rem;
 }
+
 .portafolio .division{ 
   margin: 0 0 4rem 0;
   height: 10px;
@@ -552,6 +554,54 @@ body{
   background-color: #ae6446;
 }
 
+.container{
+  display: flex;
+  justify-content: center;
+}
+
+.card{
+  background-color: #262626;
+  width: 50rem;
+  height: 62rem;
+  margin: 5rem;
+  border-radius: 1rem;
+}
+
+.card-img{
+  height: 25rem;
+  margin-bottom: 2rem;
+  background-size: cover;
+}
+
+.card-1{
+  background-image: url(../assest/img/captura-tloz.PNG);
+}
+
+.card-2{
+  background-image: url(../assest/img/captura-SI.PNG);
+}
+
+.card-3{
+  background-image: url(../assest/img/captura-SI.PNG);
+}
+
+.card-titulo{
+  color: rgb(189, 189, 189);
+  font-size: 3rem;
+  padding: 0rem 0rem 0rem 3rem;
+}
+
+.card-texto {
+  color: rgb(189, 189, 189);
+  font-size: 2rem;
+  padding: 3rem;
+}
+
+.card i{
+  color: rgb(189, 189, 189);
+  font-size: 4rem;
+  margin: 0 0 0 13rem;
+}
 /*PORTAFOLIO FIN*/
 }
 /*ORIGINAL*/

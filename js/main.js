@@ -1,14 +1,17 @@
 /*INICIO-EFECTO DE ESCRITURA*/
 const maquina = new Typed('.maquina', {
     strings: [
-        '<i class="habilidades">Freelancer</i>',
-        '<i class="habilidades">Ilustración</i>',
         '<i class="habilidades">HTML</i>',
         '<i class="habilidades">CSS</i>',
+		'<i class="habilidades">JavaScript</i>',
+		'<i class="habilidades">Base de datos</i>',
+        '<i class="habilidades">Ilustración</i>',
         '<i class="habilidades">Wordpress</i>',
+        '<i class="habilidades">Photoshop</i>',
+		'<i class="habilidades">Git</i>',
     ],
     stringsElement: '#cadenas-texto', // ID del elemento que contiene cadenas de texto a mostrar.
-	typeSpeed: 75, // Velocidad en mlisegundos para poner una letra,
+	typeSpeed: 45, // Velocidad en mlisegundos para poner una letra,
 	startDelay: 300, // Tiempo de retraso en iniciar la animacion. Aplica tambien cuando termina y vuelve a iniciar,
 	backSpeed: 75, // Velocidad en milisegundos para borrrar una letra,
 	smartBackspace: true, // Eliminar solamente las palabras que sean nuevas en una cadena de texto.
