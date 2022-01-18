@@ -1554,6 +1554,51 @@ body{
     width: 50%;
   }
 }
+@media (max-width:480px) {
+
+  /*PORTAFOLIO*/
+
+    .card{
+      background-color: #262626;
+      width: 50rem;
+      height: 47rem;
+      margin: 5rem;
+      border-radius: 1rem;
+    }
+
+    .card-img{
+      height: 15rem;
+      margin-bottom: 2rem;
+      background-size: cover;
+    }
+
+    .card-titulo{
+      color: rgb(189, 189, 189);
+      font-size: 2.5rem;
+      padding: 0rem 3rem 0rem 3rem;
+    }
+
+    .card-texto {
+      color: rgb(189, 189, 189);
+      font-size: 1.5rem;
+      padding: 2rem;
+    }
+
+    .card i{
+      color: rgb(189, 189, 189);
+      font-size: 4rem;
+      margin: 0 0 0 9rem;
+      cursor: pointer;
+    }
+
+    .card i:hover{
+      color: #ae6446;
+      transition: .4s;
+    }
+    /*PORTAFOLIO FIN*/
+  
+}
+
 
 @media (max-width:568px) {
   .quien-soy-interior img{
@@ -1658,6 +1703,46 @@ body{
       padding: 0 3rem 3rem 0;
     }
 /*SKILL - FINAL*/
+/*PORTAFOLIO*/
+
+.card{
+  background-color: #262626;
+  width: 50rem;
+  height: 62rem;
+  margin: 5rem;
+  border-radius: 1rem;
+}
+
+.card-img{
+  height: 15rem;
+  margin-bottom: 2rem;
+  background-size: cover;
+}
+
+.card-titulo{
+  color: rgb(189, 189, 189);
+  font-size: 2.5rem;
+  padding: 0rem 3rem 0rem 3rem;
+}
+
+.card-texto {
+  color: rgb(189, 189, 189);
+  font-size: 1.8rem;
+  padding: 2rem;
+}
+
+.card i{
+  color: rgb(189, 189, 189);
+  font-size: 4rem;
+  margin: 0 0 0 7rem;
+  cursor: pointer;
+}
+
+.card i:hover{
+  color: #ae6446;
+  transition: .4s;
+}
+/*PORTAFOLIO FIN*/
 }
 
 @media (max-width:375px){
@@ -1717,6 +1802,15 @@ body{
       padding: 0 3rem 3rem 0;
     }
 /*SKILL - FINAL*/
+
+/*PORTAFOLIO*/
+.card i{
+  color: rgb(189, 189, 189);
+  font-size: 4rem;
+  margin: 0 0 0 6rem;
+  cursor: pointer;
+}
+/*PORTAFOLIO-FIN*/
 } 
 
 @media (max-width:360px){
@@ -1759,6 +1853,19 @@ body{
       color: white;
     }
 
+    /*PORTAFOLIO*/
+    .card-texto {
+      color: rgb(189, 189, 189);
+      font-size: 1.7rem;
+      padding: 2rem;
+    }
+      .card i{
+      color: rgb(189, 189, 189);
+      font-size: 4rem;
+      margin: 0 0 0  5rem;
+      cursor: pointer;
+      }
+/*PORTAFOLIO-FIN*/
 
 }
 @media (max-width:320px){
@@ -1802,6 +1909,47 @@ body{
         font-size: 1.5rem;
         color: white;
       }
+
+  /*PORTAFOLIO*/
+
+.card{
+  background-color: #262626;
+  width: 50rem;
+  height: 62rem;
+  margin: 5rem;
+  border-radius: 1rem;
+}
+
+.card-img{
+  height: 15rem;
+  margin-bottom: 2rem;
+  background-size: cover;
+}
+
+.card-titulo{
+  color: rgb(189, 189, 189);
+  font-size: 2.5rem;
+  padding: 0rem 3rem 0rem 3rem;
+}
+
+.card-texto {
+  color: rgb(189, 189, 189);
+  font-size: 1.5rem;
+  padding: 2rem;
+}
+
+.card i{
+  color: rgb(189, 189, 189);
+  font-size: 4rem;
+  margin: 0 0 0 4rem;
+  cursor: pointer;
+}
+
+.card i:hover{
+  color: #ae6446;
+  transition: .4s;
+}
+/*PORTAFOLIO FIN*/
 }
 }
 /*FIN RESPONSIVE*/
