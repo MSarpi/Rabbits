@@ -1554,6 +1554,7 @@ body{
     width: 50%;
   }
 }
+
 @media (max-width:480px) {
 
   /*PORTAFOLIO*/
@@ -1598,7 +1599,6 @@ body{
     /*PORTAFOLIO FIN*/
   
 }
-
 
 @media (max-width:568px) {
   .quien-soy-interior img{
