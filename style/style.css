@@ -615,6 +615,8 @@ body{
   transition: .4s;
 }
 /*PORTAFOLIO FIN*/
+
+
 }
 /*ORIGINAL*/
 
@@ -1477,7 +1479,24 @@ body{
   }
 /*SKILL - FINAL*/
 }
-
+/* LARGE SIZE */
+@media(min-width: 700px) {
+  body {
+      padding: 0 4em;
+  }
+  .content  .contact-wrapper {
+      display: grid;
+      grid-template-columns: 2fr 1fr;
+  }
+  .content  .contact-wrapper > * {
+      padding: 2em;
+  }
+  .content .contact-info h4,
+  .contact-info ul,
+  .contact-info p {
+      text-align: left;
+  }
+}
 @media (max-width:667px) {
   .presentacion {
     color: #f3f3f3;

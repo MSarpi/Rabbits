@@ -25,3 +25,4 @@ const maquina = new Typed('.maquina', {
 });
 /*FINAL-EFECTO DE ESCRITURA*/
 
+
